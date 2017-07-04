@@ -1,0 +1,611 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Bootstrap -->
+  <!-- <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Bootstrap Material Design -->
+  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-material-design.css">
+  <link rel="stylesheet" type="text/css" href="dist/css/ripples.min.css">
+  <style>
+    body {
+    	padding-top: 70px;
+    	font-weight: normal;
+    }
+    th {
+    	font-weight: bold;
+    }
+	th, td {
+	    font-size: 14px;
+	    padding: 10px;
+	    border: solid 1px lightgrey;
+	}
+	.reading {
+		max-width: 450px;
+	}
+	.no-class {
+		background-color: lightgrey;
+	}
+  </style>
+  <title>CS492: Crowdsourcing | KAIST Fall 2016</title>
+</head>
+<body>
+	
+
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CS492: Crowdsourcing</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reading-response.html">Reading Response</a></li>
+        <li><a href="topic-presentation.html">Topic Presentation</a></li>
+        <li><a href="assignments.html">Assignments</a></li>
+<!--         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Assignments <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Assignment 1</a></li>
+            <li><a href="#">Assignment 2</a></li>
+            <li><a href="#">Assignment 3</a></li>
+            <li><a href="#">Assignment 4</a></li>
+          </ul>
+        </li> -->
+        <li class="active"><a href="final-project.html">Final Project</a></li>
+        <li><a href="projects/index.html">Project Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid main">
+	<div class="row">
+		<div class="col-md-12">
+          <div class="well">
+            <h1>Final Project</h1>
+
+            <p>You'll <strong>DESIGN</strong>, <strong>BUILD</strong>, and <strong>TEST</strong> your own crowdsourcing system.
+            
+            </p>
+          </div>
+        <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>		
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-12">
+	        <div class="bs-component">
+	          <div class="panel panel-info">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Tips &amp; Info</h3>
+	            </div>
+	            <div class="panel-body">
+	              <h2>What do I do?</h2>
+                <p>This is a team-based, semester-long design project, in which you'll create an original crowdsourcing application on your own. You'll work in teams of 3-4 people. More information about each milestone will be added to this page. Here is the timeline and grading weights for each milestone:
+
+                <ul>
+                  <li>Team Formation (week 3-4): 0%</li>
+                  <li>Idea (week 4): 10%</li>
+                  <li>Story (week 6): 10%</li>
+                  <li>Pitch (week 8): 20%</li>
+                  <li>Prototype 1 (week 10): 10%</li>
+                  <li>Prototype 2 (week 13): 10%</li>
+                  <li>Final presentation (week 15): 20%</li>
+                  <li>Final paper (week 16): 20%</li>
+                </ul>
+                
+                Please note that all team members will receive the same grade for all the milestones. 
+                </p>
+
+                <h2>Why do this?</h2>
+                <p>Now that you've mastered the arts and skills of crowdsourcing, it's important that you apply what you learned to a problem you deeply care about. It's a great way to learn further, and potentially make impact.</p>
+
+                <h2>Does my project idea qualify?</h2>
+                Projects are open-ended, so please be creative. But here are some requirements: 
+                <ul>
+                  <li>Your project should involve a <strong> VOLUNTARY OR INTRINSICALLY MOTIVATED CROWD</strong>, which means you cannot use paid crowds (e.g., MTurk, Upwork).</li>
+                  <li>Your project should include some quality control or aggregation component.</li>
+                  <li>Your project should have some user interface. I'm expecting most projects to be a novel crowdsourcing system that can be tested by others (e.g., a prototype website or a mobile app). Data mining or analysis focused projects are okay, but there needs to be some visualization or analytics dashboard component that is accessible by others to understand your results.</li>
+                  <li>Connecting to your own research is encouraged, but please make sure to talk to us early about how to make it happen.</li>
+                </ul>
+
+                <h2>How do I submit?</h2>
+                <p>We'll create an assignment in <a href="http://klms.kaist.ac.kr/course/view.php?id=48771">KLMS</a> for each milestone.</p>
+
+                <!-- <h2>How do I do it well? Any tips?</h2>
+                <p></p> -->
+
+                <!-- <h2>How is it going to be graded?</h2>
+                <p>
+                </p> -->
+
+                <h2>Late Policy</h2>
+                <p>For each milestone deadline, all members of your team will lose 10% for each late day. Submissions will be accepted until three days after the deadline. After then you'll get 0 on that assignment. Please note that late submissions for midterm and final presentations are not allowed.</p>
+	            </div>
+	          </div>         
+	        </div>        
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="col-md-12">
+          <div class="bs-component">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <a name="0"></a>
+                <h3 class="panel-title">Team Formation</h3>
+              </div>
+              <div class="panel-body">
+                <h2>Milestone 0: Team Formation</h2>
+                <h3>Due: 11:59pm on 9/23 (Fri)</h3>
+
+                <h2>What do I do?</h2>
+                <p>You'll need to find teammates to work on an exciting crowdsourcing project this semester. Each team should have 3-4 people.
+                </p>
+
+                <h2>How do I find teammates?</h2>
+                <p>Here are three methods we provide:
+
+                <ul>
+                <li>You can use <a href="https://piazza.com/kaist.ac.kr/fall2016/cs492/home">Piazza</a> to post advertisements for finding teammates.</li>
+                <li>We'll give 5 minutes at the end of two classes for in-person team formation.</li> 
+                <li>Use office hours to talk to us about project ideas so that we can make connections, and you can also run into other classmates.</li>
+                </ul>
+                
+                Please try to have diversity in your own team crowd, in terms of skillset, interest, and background.
+                </p>
+
+                <h2>How do I submit?</h2>
+                <p>Please email the course staff (me and TA) with a list of your team members, including name, student ID, and email.</p>
+
+              </div>
+            </div>         
+          </div>        
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="col-md-12">
+          <div class="bs-component">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <a name="1"></a>
+                <h3 class="panel-title">Ideas</h3>
+              </div>
+              <div class="panel-body">
+                <h2>Milestone 1: Problem Identification and Ideas</h2>
+                <h3>Due: 11:59pm on 10/5 (Wed)</h3>
+
+                <h2>What do I do?</h2>
+                <p>In a team, you'll identify a problem that you'd like to tackle with your project, and brainstorm <em>three distinct approaches</em> to solving the problem.
+                </p>
+
+                <h2>Dimensions</h2>
+                As we did in Assignment #2, We'll use the following seven dimensions, which were top-rated in our own crowdsourcing effort to rank the dimensions that matter the most in analyzing a crowdsourcing system.
+
+                <ul>
+                  <li>Motivation - why would a crowd worker do this? </li>
+                  <li>Aggregation - how are results from multiple workers combined? </li>
+                  <li>Crowd pool - you are required to use a <strong> VOLUNTARY OR INTRINSICALLY MOTIVATED CROWD</strong>, but please be more specific.</li>
+                  <li>Quality control - how to ensure valid results?  </li>
+                  <li>Human skill - what kind of human skill is required to complete a task?</li>
+                  <li>Process order - in what order is the work processed between computer, worker, and requester?</li>
+                  <li>Goal visibility - how much of the overall goal of the system is visible to an individual crowd worker?</li>
+                </ul>
+
+                <h2>Your report</h2>
+                <p>In your report, please answer the following questions:
+                <ol>
+                  <li>What is the problem your team is trying to solve? (one sentence)</li>
+                  <li>How do we know this problem exists? Why is this problem important? Include both (1) external references (e.g., academic papers, news articles, or published surveys), as well as (2) internal investigation (e.g., results from making observations, personal experiences, or interviews with target requesters or workers). (one paragraph maximum)</li>
+                  <li>Why use crowdsourcing for the problem? Why not use machines or a small group of experts?</li>
+                  <li>For the identified problem, discuss with your teammates what specific challenges exist. State these challenges as <strong>"How might we..."</strong> questions. For example, for <a href="http://dl.acm.org/citation.cfm?id=985733">the ESP game</a>, questions might include <em>"How might we make the game fun so that people play multiple sessions?"</em>, <em>"How might we ensure that there is always a partner for any player at any given time?"</em>, and <em>"How might we encourage players to type in accurate labels?"</em>. List at least 10 "How might we..." questions for your problem based on the team brainstorming. <br/><strong>NOTE</strong>: Refer to Stanford's <a href="http://dschool.stanford.edu/wp-content/uploads/2012/05/HMW-METHODCARD.pdf">d.school guide</a> on "How might we" questions. </li>
+                  <li>In your team, discuss how you might address these questions with crowdsourcing. Then pick the three most promising solutions overall. These solutions need to be rough and diverse at this point. For each idea, answer the following:</li>
+                    <ul>
+                      <li>What is the one-sentence summary of the idea?</li>
+                      <li>Describe a scenario from the requester's point of view. Think how an imaginary requester might use the system. How do they create a task? How do they review results and successfully end the task? <br/><strong>NOTE</strong>: "A scenario is a concrete, realistic story that sets up a situation involving a user with a goal to satisfy, and then follows the user through the tasks they do to satisfy that goal." (from <a href="http://web.mit.edu/6.813/www/sp16/assignments/gr2-designs/">MIT's 6.813 description</a>)</li>
+                      <li>Describe a scenario from the worker's point of view. Think how an imaginary crowd worker might use the system. How do they come into the system? What is the task experience like? What motivates them to keep contributing? <br/><strong>NOTE</strong>: You can merge the earlier question and this one if you want to design an organic workflow, in which there's no clear distinction between requesters and workers.</li>
+                      <li>Analyze the idea using the seven dimensions above. Make sure your team's three ideas have clear differences in some dimensions.</li>
+                      <!-- <li>Include a hand-drawn sketch describing the idea. It can be a storyboard of , a workflow you're considering, or a rough sketch of the user interface. Basically something visual that illustrates your idea.</li> -->
+                    </ul>
+                </ol>
+                </p>
+
+                <h2>How do I submit?</h2>
+                <p>One report per team. Your report should be submitted as a <em>zip</em> file. The main report should be written in <strong><a href="https://daringfireball.net/projects/markdown/">Markdown</a></strong> (please use the <em>.md</em> extension). We're going to publish your reports on the course website. Submit your team's report on KLMS.</p>
+
+              </div>
+            </div>         
+          </div>        
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="col-md-12">
+          <div class="bs-component">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <a name="2"></a>
+                <h3 class="panel-title">Story</h3>
+              </div>
+              <div class="panel-body">
+                <h2>Milestone 2: Tasks, Sketches, and Video</h2>
+                <h3>Due: 11:59pm on 10/13 (Thu)</h3>
+
+                <h2>What do I do?</h2>
+                <p>Your team will now further develop the ideas that you came up with in Milestone #1. You'll create three types of artifacts that will capture your design process. Please follow the order presented below.
+                <ul>
+                  <li>
+                    <strong>Tasks</strong>: Based on the three solution ideas your team came up with, brainstorm three major <em>tasks</em> your solution wants to support. Tasks represent what the user (crowd workers or requesters) wants to achieve, rather than specific system features or UI elements. For each task, list three <strong>requirements or design goals</strong> that a solution should support. Some tips:
+                      <ul>
+                        <li>Make sure the three tasks are distinct from one another and cover different levels of complexity.</li>
+                        <li>Be specific, and include details and context. <em>"The user wants to learn math."</em> is way too broad. Think about a particular user with their likely demographic, constraints, and motivation: <em>"Seung Hyun, a 20-year old college student, wants to learn Chinese in his spare time. While he doesn't have time to take classes or get a private tutor, he wants to use his commute time to learn useful words and phrases."</em></li>
+                      </ul>
+                  </li>
+                  <li><strong>Sketches</strong>: For each of the three tasks you identified, turn them into storyboard sketches. The storyboard should walk through a concrete scenario and a task, and again, shouldn't be about specific system features or UI elements. Of course you'll need to describe the solution, but focus on the concept and context, rather than pretty UIs or sophisticated system features. Some tips:
+                    <ul>
+                      <li>Before you jump to your sketch, watch the first 6 minutes of <a href="https://www.youtube.com/watch?v=lgEm67KLIIM">this video</a> by Scott Klemmer, talking about storyboards. Optionally, you can also read <a href="http://dl.acm.org/citation.cfm?id=1142410">this paper on storyboarding</a>.</li>
+                      <li>Here are <a href="http://d.ucsd.edu/class/intro-hci/2016/assignments/examples/a03example1.html">some examples</a>.</li>
+                      <li>Make sure to use a thick pen in your final version so that sketches are visible when digitally scanned. But it's a good idea to use a pencil in your first draft.</li>
+                      <li>When brainstorming what solution to include for each story, go back to the three solution ideas from Milestone #1. Join forces and think about what best elements to combine and keep, while removing some of the less promising ideas. </li>
+                    </ul>
+                  </li>
+                  <li><strong>Video</strong>: Now turn your three storyboards into a concept video that illustrates the three tasks. Some tips:
+                    <ul>
+                      <li>You need to set the stage: Start with a user and their context and problem. Do not show the UI sketches from the beginning.</li>
+                      <li>You can include rough UI sketches to demonstrate how the user might perform the task using your system, but they need to be rough and in low fidelity.</li>
+                      <li><a href="https://www.youtube.com/results?search_query=cs147+concept+video">Some examples here</a>.</li>
+                    </ul>
+                  </li>
+                </ul>
+                </p>
+
+                <h2>Your report</h2>
+                <p>Your report should include the three components: storyboard sketches, a concept video, and an abstract.
+                <ul>
+                  <li><strong>Tasks</strong>: Description of three tasks, each about a paragraph long. For each task, include three requirements or design goals, and explain why they matter.</li>
+                  <li><strong>Sketches</strong>: Three storyboards, hand-drawn.</li>
+                  <li><strong>Video</strong>: A video clip, maximum three minutes long.</li>
+                </ul>
+                </p>
+
+                <h2>How do I submit?</h2>
+                <p>One report per team. Your report should be submitted as a <em>zip</em> file. 
+                <ul>
+                  <li><strong>Tasks</strong>: In <strong><a href="https://daringfireball.net/projects/markdown/">Markdown</a></strong> (please use the <em>.md</em> extension)</li>
+                  <li><strong>Sketches</strong>: Scan in png or jpg. Images need to be in a directory called <em>images</em>.</li>
+                  <li>
+                    <strong>Video</strong> (guidelines adopted from <a href="https://chi2017.acm.org/video.html">CHI 2017 Video Showcase</a>)
+                    <ul>
+                      <li>Encoded as an MP4 using the H.264 codec. No exceptions!</li>
+                      <li>You'll upload your video file on <a href="https://youtube.com/">YouTube</a>. Include the URL of your posted video in your abstract document. Also upload the original mp4 file on KLMS.</li>
+                      <li>All spoken dialog must be closed captioned (subtitled) to improve accessibility.</li>
+                      <li>Resolution of at least 1280px x 720px.</li>
+                      <li>The 16:9 aspect ratio is recommended.</li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                We're going to publish your reports on the course website. Submit your team's report on KLMS.</p>
+
+              </div>
+            </div>         
+          </div>        
+        </div>
+    </div>
+
+
+  <div class="row">
+    <div class="col-md-12">
+          <div class="bs-component">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <a name="3"></a>
+                <h3 class="panel-title">Pitch</h3>
+              </div>
+              <div class="panel-body">
+                <h2>Milestone 3: Pitch</h2>
+                <h3>Due: in class (1:30-3:30pm) on 10/20 (Thu)</h3>
+
+                <h2>What do I do?</h2>
+                <p>Now that you've identified an interesting problem, a set of concrete tasks you want to support, and a set of possible solutions, it's time to turn these into a convincing pitch!</p>
+
+                <p>You'll have 10 minutes to do the following:
+                <ul>
+                  <li>Motivate the problem</li>
+                  <li>Present the identified tasks and explain why they matter</li>
+                  <li>State what your proposed solution is, and why it'll be able to solve the problem and support the tasks well.</li>
+                  <li>Share your plan: (1) In your team, who'll be responsible for what? (2) How will you find the crowd to use and test your system? </li>
+                </ul>
+                </p>
+                <p>After the pitch, you'll have three minutes for Q and A.</p>
+                <p>Note: We'll enforce a strict 10-minute time limit by cutting off the presentation. Please plan and rehearse.</p>
+
+                <h2>Grading</h2>
+                <p>Here's how your pitches will be graded.</p>
+                <ul>
+                  <li><strong>Organization (10%)</strong>: Overall structure and flow of the presentation.</li>
+                  <li><strong>Problem (20%)</strong>: Well defined? Is it a real problem? What's the evidence?</li>
+                  <li><strong>Solution (30%)</strong>: Novel? Feasible? Quality control / aggregation / motivation... thought out?</li>
+                  <li><strong>Plan (10%)</strong>: Who does what and deployment plan.</li>
+                  <li><strong>Articulation (10%)</strong>: Delivery and clarity of the presentation.</li>
+                  <li><strong>Visual aids (10%)</strong>: Design and readability of the slides, use of effective visual aids and examples.</li>
+                  <li><strong>Overall (10%)</strong>: How engaging was the overall talk?</li>           
+                </ul>
+
+                <h2>Your report</h2>
+                <p>You'll present in class and submit your slides after the class.
+                </p>
+
+                <h2>How do I submit?</h2>
+                <p>Your team's slides should be submitted as a <em>PDF</em> file, via KLMS.</p>
+
+              </div>
+            </div>         
+          </div>        
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="col-md-12">
+          <div class="bs-component">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <a name="4"></a>
+                <h3 class="panel-title">Low-Fi Prototype</h3>
+              </div>
+              <div class="panel-body">
+                <h2>Milestone 4: Low-Fi Prototype</h2>
+                <h3>Due: 11:59pm on 11/10 (Thu)</h3>
+
+                <h2>What do I do?</h2>
+                <p>Now you have a clear idea and concrete tasks and scenarios to support in your crowdsourcing application. Let's start prototyping the idea!</p>
+
+                <p>Before making something that's fully functional with a server backend and a visually pleasing interface, it's more important to first "implement" the tasks and scenarios into a prototype.</p>
+
+                <p>Rather than use HTML and Javascript, you'll first use a prototyping tool to implement the tasks and scenarios. Specifically, we recommend <a href="https://marvelapp.com/">Marvel</a>, <a href="https://www.invisionapp.com/">InVision</a>, or <a href="https://proto.io/">proto.io</a>. You can also choose any prototyping tool of your choice.</p>
+
+                <p>Functionlity does not need to be fully implemented. Please use hard-coded but realistic data, Wizard-of-Oz, and fake results, so that you can focus on the essential: the UI and the crowd workflow rather than the underlying implementation.</p>
+
+                <h2>Your report</h2>
+                <p>Your report should include:</p>
+
+                <ul>
+                  <li><strong>Problem Statement</strong>: Re-state the problem you're tackling in your project. Based on what you've learned so far, you can revise your problem statement.</li>
+                  <li><strong>Tasks</strong>: List core tasks (one to three, at least two recommended) you've decided to support in your application. Again, you can make improvements from the initial report.</li>
+                  <li><strong>Prototype</strong>:
+                    <ul>
+                      <li>Prototyping tool: Which tool did you choose? Why? What worked well with the tool? What didn't?</li>
+                      <li>Design choices: What did you intentionally choose NOT to implement (e.g., fake or hard-coded data, manual algorithm, etc.), and why? </li>
+                      <li>Representative screenshots: Include a few most important screenshots that showcase the uniqueness of your application.</li>
+                      <li>Instructions: Your prototype needs to be accessible and executable by anyone with the link. Please include instructions for running your prototype in detail, if needed. Later, peer students will actually use this prototype to give you feedback.
+                    </ul>
+                  </li>
+                  <li><strong>User feedback</strong>: Show your prototype to THREE people (hopefully target users) outside your team. Ask them to <a href="https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/">think aloud</a>. Write down any usability issues and comments. List at least 10 distinct comments you received in your report. Your submitted prototype doesn't need to reflect these comments, although we encourage you to make these changes for your next iteration.</li>
+                </ul>
+
+                <h2>How do I submit?</h2>
+                <p>One report per team. Your report should be submitted as a <em>zip</em> file. The main report should be written in <strong><a href="https://daringfireball.net/projects/markdown/">Markdown</a></strong> (please use the <em>.md</em> extension). Submit using KLMS.</p>
+
+              </div>
+            </div>         
+          </div>        
+        </div>
+    </div>
+
+
+  <div class="row">
+    <div class="col-md-12">
+          <div class="bs-component">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <a name="5"></a>
+                <h3 class="panel-title">Mid-Fi Prototype</h3>
+              </div>
+              <div class="panel-body">
+                <h2>Milestone 5: Mid-Fi Prototype</h2>
+                <h3>Due: 11:59pm on 11/22 (Tue)</h3>
+
+                <h2>What do I do?</h2>
+                <p>Finally, the tasks and scenarios you want to support need to be available in an interactive prototype.</p>
+
+                <p>Functionlity does not need to be fully implemented. Please use hard-coded but realistic data, Wizard-of-Oz, and fake results, so that you can focus on the essential: the UI and the crowd workflow rather than the underlying implementation.</p>
+
+                <h2>Your report</h2>
+                <p>Your report should include:</p>
+
+                <ul>
+                  <li><strong>Instruction</strong>: Include any information for someone who doesn't know about the project to be able to try the prototype and offer feedback (e.g., what tasks to try, what's working and not working now).</li>
+                  <li><strong>Prototype</strong>: It should be either (1) a URL to your prototype, or (2) files (e.g., HTML, CSS, Javascript) that can be run locally.</li>
+                </ul>
+
+                <h2>How do I submit?</h2>
+                <p>One report per team. Your report should be submitted as a <em>zip</em> file. The instructions should be written in <strong><a href="https://daringfireball.net/projects/markdown/">Markdown</a></strong> (please use the <em>.md</em> extension). Submit using KLMS.</p>
+
+              </div>
+            </div>         
+          </div>        
+        </div>
+    </div>
+
+
+  <div class="row">
+    <div class="col-md-12">
+          <div class="bs-component">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <a name="6"></a>
+                <h3 class="panel-title">Hi-Fi Prototype</h3>
+              </div>
+              <div class="panel-body">
+                <h2>Milestone 6: Hi-Fi Prototype</h2>
+                <h3>Due: 11:59pm on 12/6 (Tue)</h3>
+
+                <h2>What do I do?</h2>
+                <p>Now you're finally building a fully functional prototype, with live user interactions. Please make sure users can complete the tasks you initially outlined in the earlier milestones.</p>
+
+                <h2>Your report</h2>
+                <p>Your report should include:</p>
+
+                <ul>
+                  <li><strong>Project Summary</strong> (maximum three sentences): (1) the problem you're addressing, (2) what your solution is, (3) what unique approach you're taking in your solution (how it's different from other similar solutions). This information will also go into the project gallery.</li>
+                  <li><strong>Instruction</strong>: Give a quick tour of the interface, and also show off some of the highlights of the interface.</li>
+                  <li><strong>Technical Description</strong>: What frameworks / libraries / technical stack have been used for both the frontend and the backend.</li>
+                  <li><strong>Prototype URL</strong>: A link pointing to your prototype, where the system can be tested live.
+                  <li><strong>Prototype Code</strong>: A link to a Github repo.</li>
+                </ul>
+
+                <h2>How do I submit?</h2>
+                <p>One report per team. Your report should be submitted as <strong><a href="https://daringfireball.net/projects/markdown/">Markdown</a></strong> (please use the <em>.md</em> extension). Submit using KLMS.</p>
+
+              </div>
+            </div>         
+          </div>        
+        </div>
+    </div>
+
+ <div class="row">
+    <div class="col-md-12">
+          <div class="bs-component">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <a name="7"></a>
+                <h3 class="panel-title">Final Presentation</h3>
+              </div>
+              <div class="panel-body">
+                <h2>Milestone 7: Final Presentation</h2>
+                <h3>Due: in class (1:30-3:30pm) on 12/15 (Thu)</h3>
+
+                <h2>What do I do?</h2>
+                <p>Now that have an awesome prototype that should be getting a lot of excitement from your crowds, it's time to tell us about what you built and what you learned from having real crowds use the system.</p>
+
+                <p>You'll have 10 minutes to do the following:
+                <ul>
+                  <li>Motivate the problem.</li>
+                  <li>List the main tasks you're trying to support.</li>
+                  <li>What is your solution? How is it different from existing systems? Why is it better?</li>
+                  <li>Walk through your interface. You can use video or screenshots, or even do a live demo. But be careful with live demos, because they require a lot of practice and include many move parts.</li>
+                  <li>Show us how your deployment went. How many users did you attract? What are some collected results suggesting that your application serves the task well? What did you learn from talking to users?</li>
+                  <li>Limitations, implications, and possible improvements.</li>
+                </ul>
+                </p>
+                <p>After the presentation, you'll have three minutes for Q and A.</p>
+                <p>Note: We'll enforce a strict 10-minute time limit by cutting off the presentation. Please plan and rehearse.</p>
+
+                <h2>Grading</h2>
+                <p>Here's how your pitches will be graded.</p>
+                <ul>
+                  <li><strong>Organization (10%)</strong>: Overall structure and flow of the presentation.</li>
+                  <li><strong>Problem (10%)</strong>: Well defined? Is it a real problem? What's the evidence?</li>
+                  <li><strong>Solution (20%)</strong>: Does the application deliver its initial promises? Is it novel? Feasible? Quality control / aggregation / motivation... well thought out?</li>
+                  <li><strong>Results (20%)</strong>: What did you learn from the deployment? What are the qualitative and quantitative results from users?</li>
+                  <li><strong>Discussion (10%)</strong>: Depth of disccusing limitations, implications, and possible improvements.</li>
+                  <li><strong>Articulation (10%)</strong>: Delivery and clarity of the presentation.</li>
+                  <li><strong>Visual aids (10%)</strong>: Design and readability of the slides, use of effective visual aids and examples.</li>
+                  <li><strong>Overall (10%)</strong>: How engaging was the overall talk?</li>           
+                </ul>
+
+                <h2>Your report</h2>
+                <p>You'll present in class and submit your slides after the class.
+                </p>
+
+                <h2>How do I submit?</h2>
+                <p>Your team's slides should be submitted as a <em>PDF</em> file, via KLMS.</p>
+
+              </div>
+            </div>         
+          </div>        
+        </div>
+    </div>
+
+
+ <div class="row">
+    <div class="col-md-12">
+          <div class="bs-component">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <a name="8"></a>
+                <h3 class="panel-title">Final Report</h3>
+              </div>
+              <div class="panel-body">
+                <h2>Milestone 8: Final Report</h2>
+                <h3>Due: 11:59pm on 12/22 (Thu)</h3>
+
+                <h2>What do I do?</h2>
+                <p>Now that you have deployed your system for a couple weeks, seen your crowd use the system, and collected useful data, it's time to write it all up! You've already read and written responses to 30+ crowdsourcing papers, so let's write one on your project.</p>
+
+                <h2>Suggested Outline</h2>
+                <p>Find a model paper that your team really likes or is inspired by, and use it as a template. Here's a suggested outline:</p>
+                <ul>
+                  <li><strong>Abstract</strong>: One paragraph summary of the project. This is the most important part of the paper. After reading it, a reader should understand the problem you're tacking, the approach you're taking, and the results of your evaluation.</li>
+                  <li><strong>Introduction</strong>: What is the state of the world? What's the burning problem? What's your solution? What's the summary of results?</li>
+                  <li><strong>Background and Related Work</strong>: What backgrond knowledge do you want your readers to have to better understand your motivation? What existing techniques or ideas are you inspired by? How does your approach differ from them?</li>
+                  <li><strong>System</strong>: What are the major tasks you're supporting, and how does your system support them? Report on the unique aspect of the interface and the crowdsourcing techniques. Include screenshots of important interactions.</li>
+                  <li><strong>Evaluation</strong>: How did your deployment go? Report the number of users, results, analysis, etc. Use visual aids to communicate the results effectively. <strong>NOTE</strong>: Please do not include results generated by your own team!!</li>
+                  <li><strong>Discussion</strong>: What lessons did you learn? Specifically, discuss what you learned about designing a system for a <strong>VOLUNTARY OR INTRINSICALLY MOTIVATED CROWD</strong>. Also discuss limitations, design implications, and possible improvements.</li>
+                  <li><strong>Conclusion</strong>: Not necessary.</li>
+                  <li><strong>References</strong>: List of references.</li>
+                </ul>
+
+                <h2>Grading</h2>
+                <p>Here's how your paper will be graded.</p>
+                <ul>
+                  <li><strong>Idea (20%)</strong>: Motivation, problem identification, and approach are clearly and convincingly presented.</li>
+                  <li><strong>Background / Related Work (10%)</strong>: Covers relevant background information and research.</li>
+                  <li><strong>Execution (20%)</strong>: The system delivers its initial promises. It's technically strong and robust, and involves crowdsourcing in a non-trivial manner.</li>
+                  <li><strong>Evidence (20%)</strong>: The evaluation is complete, and shows if and how the system worked as expected. Results are presented in an academically sound manner.</li>
+                  <li><strong>Discussion (20%)</strong>: Discussion touches upon important design dimensions and shows reflective thinking.</li>
+                  <li><strong>Presentation (10%)</strong>: It is overall well-written. Images, tables, and charts effectively communicating the message.</li>           
+                </ul>
+
+                <h2>Your report</h2>
+                <p> 
+                You need to submit a maximum 4-page paper in the <a href="https://chi2017.acm.org/submission-formats.html">CHI Proceedings Format</a>.
+                </p>
+
+                <h2>How do I submit?</h2>
+                <p>Your team's slides should be submitted as a <em>PDF</em> file, via KLMS.</p>
+
+                <h2>Extra Credit #1: Cool Video</h2>
+                <p>Up to +10% on the final report</p>
+                <p>Video is a great way to demonstrate the awesomeness of your application. Follow the <a href="http://kixlab.org/courses/crowdsourcing/final-project.html#2">guidelines from the concept video</a> to create an updated version of your video, which should feature the final interface design. Add the video link in your final report.</p>
+
+                <h2>Extra Credit #2: Best Crowdsourcer</h2>
+                <p>Up to +10% on the final report</p>
+                <p>A group that recruits the most active crowd deserves some credit! We'll reward one group that most successfully showed the power of the crowd. This does not just mean the most number of users, but includes the overall participation, quality of data, and your analysis of the data. We'll announce the winner and explain why they deserve the "Best Crowdsourcer" title.</p>
+
+              </div>
+            </div>         
+          </div>        
+        </div>
+    </div>
+
+
+
+
+</div>
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="dist/js/ripples.min.js"></script>
+<script src="dist/js/material.min.js"></script>
+<script>
+  $(function () {
+    $.material.init();
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,318 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Bootstrap -->
+  <!-- <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Bootstrap Material Design -->
+  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-material-design.css">
+  <link rel="stylesheet" type="text/css" href="dist/css/ripples.min.css">
+  <style>
+    body {
+    	padding-top: 70px;
+    	font-weight: normal;
+    }
+    th {
+    	font-weight: bold;
+    }
+	th, td {
+	    font-size: 14px;
+	    padding: 10px;
+	    border: solid 1px lightgrey;
+	}
+	.reading {
+		max-width: 450px;
+	}
+	.no-class {
+		background-color: lightgrey;
+	}
+  </style>
+  <title>CS492: Crowdsourcing | KAIST Fall 2016</title>
+</head>
+<body>
+	
+
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CS492: Crowdsourcing</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reading-response.html">Reading Response</a></li>
+        <li><a href="topic-presentation.html">Topic Presentation</a></li>
+        <li class="active"><a href="assignments.html">Assignments</a></li>
+<!--         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Assignments <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Assignment 1</a></li>
+            <li><a href="#">Assignment 2</a></li>
+            <li><a href="#">Assignment 3</a></li>
+            <li><a href="#">Assignment 4</a></li>
+          </ul>
+        </li> -->
+        <li><a href="final-project.html">Final Project</a></li>
+        <li><a href="projects/index.html">Project Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid main">
+	<div class="row">
+		<div class="col-md-12">
+          <div class="well">
+            <h1>Assignments</h1>
+
+            <p>You'll <strong>ANALYZE</strong> and <strong>IMPLEMENT</strong> existing crowdsourcing systems and techniques on your own.
+            
+            </p>
+          </div>
+        <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>		
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-12">
+	        <div class="bs-component">
+	          <div class="panel panel-info">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Tips &amp; Info</h3>
+	            </div>
+	            <div class="panel-body">
+	              <h2>What do I do?</h2>
+                <p>There will be a set of assignments that will be announced as the course progresses, in which you'll:
+                <ul>
+                  <li>Become a crowd worker.</li>
+                  <li>Survey &amp; Analyze existing crowdsourcing systems.</li>
+                  <li>Replicate results from an academic paper.</li>
+                  <li>Implement a crowdsourcing technique.</li>
+                </ul>
+                </p>
+
+                <h2>Why do this?</h2>
+                <p>Hand-on exercises and implementations are a fun and effective way to learn.</p>
+
+                <h2>How do I submit?</h2>
+                <p>We'll create an assignment in <a href="http://klms.kaist.ac.kr/course/view.php?id=48771">KLMS</a> for each assignment.</p>
+
+                <!-- <h2>How do I do it well? Any tips?</h2>
+                <p></p> -->
+
+                <!-- <h2>How is it going to be graded?</h2>
+                <p>
+                </p> -->
+
+                <h2>Late Policy</h2>
+                <p> You'll lose 10% for each late day. Submissions will be accepted until three days after the deadline. After then you'll get 0 on that assignment.</p>
+
+	            </div>
+	          </div>         
+	        </div>        
+        </div>
+    </div>
+
+
+  <div class="row">
+    <div class="col-md-12">
+          <div class="bs-component">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <a name="1"></a>
+                <h3 class="panel-title">Assignment 1</h3>
+              </div>
+              <div class="panel-body">
+                <h2>Assignment 1: Be a crowd worker</h2>
+                <h3>Due: Before class on 9/13 (Tue)</h3>
+
+                <h2>What do I do?</h2>
+                <p>In this assignment, you'll experience what it's like to be a crowd worker. In class, we walked through the <a href="https://mturk.com/">MTurk</a> user interface, both as a worker and as a requester, and discussed its strengths and limitations. Now it's your turn to pick a crowdsourcing platform of your choice (sorry, MTurk doesn't count!) and be a worker yourself. We'll focus on voluntary crowdsourcing platforms, which are quite different from platforms offering monetary reward in many ways.
+                </p>
+                
+                Pick one of the following platforms:
+                <ul>
+                  <li><a href="http://labinthewild.org/">Lab in the Wild</a></li>
+                  <li><a href="https://www.galaxyzoo.org/">Galaxy Zoo</a> (or any of the <a href="https://www.zooniverse.org/projects">Zooniverse projects</a>)</li>
+                  <li><a href="http://fold.it/portal/">fold.it</a></li>
+                  <li><a href="http://eyewire.org/explore">Eyewire</a></li>
+                  <li><a href="http://labelme.csail.mit.edu/">LabelMe</a></li>
+                </ul>
+
+                You need to spend at least <strong>one hour</strong> as a crowd worker using the platform. Show us some visual proof of what you've done with screenshots (e.g., example task, how much work you've done, your score in a game, etc.).
+                </p>
+
+                <h2>Your report</h2>
+                <p>In your report, please reflect on your experience by answering the following questions:
+                <ol>
+                  <li>What is the name of your platform?</li>
+                  <li>Why is this crowdsourcing? What is it crowdsourcing?</li>
+                  <li>Walk through your task finding, performing, and learning experience with screenshots.</li>
+                  <li>What did you like about the platform? Why do people come to this platform?</li>
+                  <li>What problems did you run into? How would you improve the platform and the tasks to attract more volunteers?</li>
+                  <li>In the scale of 1 (not really) - 10 (very much), answer the following: "I think I contributed meaningful work that helps the goal of the platform."</li>
+                  <li>In the scale of 1 (not really) - 10 (very much), answer the following: "I personally enjoyed working on the tasks."</li>
+                </ol>
+                </p>
+
+                <h2>How do I submit?</h2>
+                <p><a href="http://klms.kaist.ac.kr/course/view.php?id=48771">KLMS</a></p>
+
+              </div>
+            </div>         
+          </div>        
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="col-md-12">
+          <div class="bs-component">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <a name="2"></a>
+                <h3 class="panel-title">Assignment 2</h3>
+              </div>
+              <div class="panel-body">
+                <h2>Assignment 2: Analyze Crowdsourcing Platforms</h2>
+                <h3>Due: Before class on 9/20 (Tue)</h3>
+
+                <h2>What do I do?</h2>
+                <p>In this assignment, you'll analyze <strong>FIVE</strong> existing crowdsourcing platforms and applications, using the dimensions identified by learnersourcing.
+                <br/><br/>
+                Here are some notes:
+                <ol>
+                  <li>Examples that have been previously discussed in class cannot be used.</li>
+                  <li>Five platforms you pick should be different from one another in a significant way (e.g., you cannot pick five Zooniverse projects).</li>
+                  <li>You can define crowdsourcing broadly, as long as you can explain why it can be seen as crowdsourcing (e.g., Wikipedia? Uber? Crowdfunding? Recommender systems?).</li>
+                  <li>To help you find good examples, Wikipedia has a <a href="https://en.wikipedia.org/wiki/List_of_crowdsourcing_projects">crowdsourced collection of crowdsourcing projects</a>. But you should also explore on your own!</li>
+                </ol>
+                </p>
+                
+                <h2>Dimensions</h2>
+                We'll use the following seven dimensions, which were top-rated in our own crowdsourcing effort to rank the dimensions that matter the most in analyzing a crowdsourcing system.
+
+                <ul>
+                  <li>Motivation - why would a crowd worker do this? </li>
+                  <li>Aggregation - how are results from multiple workers combined? </li>
+                  <li>Crowd pool - undefined, paid, voluntary, community, location-based, etc.? </li>
+                  <li>Quality control - how to ensure valid results?  </li>
+                  <li>Human skill - what kind of human skill is required to complete a task?</li>
+                  <li>Process order - in what order is the work processed between computer, worker, and requester?</li>
+                  <li>Goal visibility - how much of the overall goal of the system is visible to an individual crowd worker?</li>
+                </ul>
+
+                We understand that it might be difficult to precisely extract some of the dimensions as crowd workers of a platform. The underlying mechanism might be hidden from the crowd. In such a case, please (1) indicate that the information is not publicly available, but (2) write your thought on what might be happening under the hood.
+
+                <h2>Your report</h2>
+                <p>In your report, please analyze each platform by answering the following questions:
+                <ol>
+                  <li>What is the name of the platform? URL?</li>
+                  <li>Why is this crowdsourcing? What is it crowdsourcing?</li>
+                  <li>How did you find out about the platform?</li>
+                  <li>Analyze the platform using the seven dimensions above.</li>
+                  <li>Discuss one strength and one weakness of the platform.</li>
+                  <li>Include a screenshot.</li>
+                </ol>
+                </p>
+
+                <h2>How do I submit?</h2>
+                <p><a href="http://klms.kaist.ac.kr/course/view.php?id=48771">KLMS</a></p>
+
+              </div>
+            </div>         
+          </div>        
+        </div>
+    </div>
+
+
+  <div class="row">
+    <div class="col-md-12">
+          <div class="bs-component">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <a name="3"></a>
+                <h3 class="panel-title">Assignment 3</h3>
+              </div>
+              <div class="panel-body">
+                <h2>Assignment 3: Heuristic Evalution Part 1</h2>
+                <h3>Due: 11:59pm on 11/25 (Fri)</h3>
+
+                <h2>What do I do?</h2>
+                <p>In this assignment, you'll test a prototype by one peer student group and provide useful feedback. Yes, it's a <strong>learnersourcing</strong> approach: you learn and practice how to evalute a user interface while helping peer students improve their prototype! We will use an evaluation technique called <strong>heuristic evaluation</strong>.</p>
+
+                <p>Simply put, heuristic evaluation uses guidelines that capture the principles of effective user interfaces. While there are plenty of options to choose from, we'll use <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">Nielsen's 10 usability heuristics</a>. As you run the assigned prototype, note any striking problem or success you find. Then relate it to one of the heuristics, and explain how it is violated or met.</p>
+
+                <p>NOTE: Since most prototypes are still not complete, please do not focus on aesthetics or feature completeness, but rather focus on the usability of the interface components that are related to the main task.</p>
+
+                <p>Here are some useful examples from <a href="http://web.mit.edu/6.813/www/sp16/classes/20-heuristic-evaluation/">MIT's 6.813 class notes</a>: 
+
+                <ul>
+                <li>Include positive comments as well as criticisms: 
+                  <ul>
+                    <li>"Good: Toolbar icons are simple, with good contrast and few colors (minimalist design)"</li>
+                  </ul>
+                </li>
+                <li>Be tactful:
+                  <ul>
+                    <li>NOT: "the menu organization is a complete mess"</li>
+                    <li>Better: "menus are not organized by function"</li>
+                  </ul>
+                </li>
+                <li>Be specific:
+                  <ul>
+                    <li>NOT: "text is unreadable"</li>
+                    <li>Better: "text is too small, and has poor contrast (black text on dark green background)"</li>
+                  </ul>
+                </li>
+                </ul>
+                </p>
+
+                <h2>Which prototype should I test?</h2>
+                <p>Refer to the <a href="https://docs.google.com/spreadsheets/d/1ryme76YHCv4KBFFCs4ilPjsiNlC4kkXtjBSBpoZP9sY/edit?usp=sharing">assignment sheet</a>.</p>
+                
+                <h2>Your report</h2>
+                <p>In your report, please include results of your heuristic evaluation:
+                <ol>
+                  <li>What is the name of the system you tested?</li>
+                  <li>Make a numbered list of <strong>10 usability problems and successes</strong>  you find. For each problem or positive comment:
+                    <ul>
+                      <li>Describe the problem or positive feature. You may use screenshots if they help. If not, please make sure your comment is descriptive enough to point to a particular feature or UI element.</li>
+                      <li>Identify one relevant usability heuristic from <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">Nielsen's 10 usability heuristics</a>, and explain how it is violated or met.</li>
+                  </li>
+                </ol>
+                </p>
+
+                <h2>How do I submit?</h2>
+                <p>The report should be written in <strong><a href="https://daringfireball.net/projects/markdown/">Markdown</a></strong> (please use the <em>.md</em> extension). Submit using KLMS.</p>
+
+              </div>
+            </div>         
+          </div>        
+        </div>
+    </div>
+
+</div>
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="dist/js/ripples.min.js"></script>
+<script src="dist/js/material.min.js"></script>
+<script>
+  $(function () {
+    $.material.init();
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,589 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Bootstrap -->
+  <!-- <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Bootstrap Material Design -->
+  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-material-design.css">
+  <link rel="stylesheet" type="text/css" href="dist/css/ripples.min.css">
+  <style>
+    body {
+    	padding-top: 70px;
+    	font-weight: normal;
+    }
+    th {
+    	font-weight: bold;
+    }
+	th, td {
+	    font-size: 14px;
+	    padding: 10px;
+	    border: solid 1px lightgrey;
+	}
+	.topic {
+
+	}
+	.reading {
+		max-width: 450px;
+	}
+	.no-class {
+		background-color: lightgrey;
+	}
+  </style>
+  <title>CS492: Crowdsourcing & Social Computing | KAIST Fall 2017</title>
+</head>
+<body>
+	
+
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CS492: Crowdsourcing & Social Computing</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="reading-response.html">Reading Response</a></li>
+        <li><a href="topic-presentation.html">Topic Presentation</a></li>
+        <li><a href="assignments.html">Assignments</a></li>
+<!--         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Assignments <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Assignment 1</a></li>
+            <li><a href="#">Assignment 2</a></li>
+            <li><a href="#">Assignment 3</a></li>
+            <li><a href="#">Assignment 4</a></li>
+          </ul>
+        </li> -->
+        <li><a href="final-project.html">Final Project</a></li>
+        <!-- <li><a href="projects/index.html">Project Gallery</a></li> -->
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid main">
+	<div class="row">
+		<div class="col-md-12">
+          <div class="well">
+            <div>KAIST Fall 2017</div>
+            <h1>CS492: Crowdsourcing & Social Computing</h1>
+
+            <p>Human-computer interaction no longer only concerns a single user in front of their computer. An increasing number of modern systems are inherently social, involving a large group of users to collaborate, discuss, ideate, solve problems, and make decisions together via social interaction. This course focuses on crowdsourcing and social computing, two of the most important concepts in the era of interaction at scale. This course will cover major design issues and computational techniques in building crowdsourcing and social computing systems.</p>
+
+            <p><strong>Changes from the 2016 course</strong>: The course now covers a broader scope by including social computing; The reading load is reduced and includes more non-academic articles to make the course more accessible to undergraduate students.</p>
+
+            <!-- <p>Crowdsourcing has successfully solved a wide variety of real-world problems. By inviting lots of people to participate in the problem solving process, crowdsourcing has tackled problems that neither computers nor humans could solve alone. Common application areas include data collection and labeling, collaborative ideation and problem solving, citizen science, education, and accessibility. In building a successful crowdsourcing system, important challenges arise in recruitment, incentive structure, task design, workflow design, quality control, data processing, and ethics, just to name a few. </p> -->
+
+            <p>This is a highly interactive class: you’ll be expected to actively participate in activities, projects, assignments, and discussions. There will be no lectures or exams. Major course activities include:</p>
+
+            <ul>
+              <li><strong>Reading Response</strong>: You'll read and discuss important papers and articles in the field. Each week, there will be 1-2 reading assignments, for which you'll write a short response to.</li>
+              <li><strong>Topic Presentation</strong>: Once a semester, you'll lead the class by summarizing the readings and peer students' critiques, and spurring the in-class discussion. You’ll also get a chance to design your own activity that best captures the topic of a class.</li>
+              <li><strong>Design Project</strong>: In a semester-long team project, you'll design, build, and test your own crowdsourcing / social computing system. If you have an ongoing research project that might benefit from having a crowdsourcing / social computing component, connecting to your research is encouraged. </li>
+              <li><strong>In-class Activities</strong>: Each class will feature activities that will help you experience and practice the core concepts introduced in the course. </li>
+            </ul>
+
+          </div>
+        <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>		
+	</div>
+
+	<div class="row">
+		<div class="col-md-4">
+	        <div class="bs-component">
+	          <div class="panel panel-primary">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Course Staff</h3>
+	            </div>
+	            <div class="panel-body">
+	              <strong>Instructor: <a href="http://juhokim.com/">Prof. Juho Kim</a> </strong>(juhokim@kaist.ac.kr)<br/>
+	              &nbsp;&nbsp;&nbsp;&nbsp;<em>Office Hours</em>: TBD @ N1-605<br/><br/>
+	              <strong>TA: TBD </strong>()<br/>
+	              &nbsp;&nbsp;&nbsp;&nbsp;<em>Office Hours</em>: TBD<br/>
+	            </div>
+	          </div>         
+	        </div>	     
+        </div>         
+		<div class="col-md-4">
+	        <div class="bs-component">
+	          <div class="panel panel-primary">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Time &amp; Location</h3>
+	            </div>
+	            <div class="panel-body">
+	              <strong>When</strong>: 1:00-2:15pm Tue/Thu<br/>
+	              <strong>Where</strong>: N1-114
+	            </div>
+	          </div>         
+	        </div>        
+        </div> 
+    
+		<div class="col-md-4">
+	        <div class="bs-component">
+	          <div class="panel panel-primary">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Links</h3>
+	            </div>
+	            <div class="panel-body">
+	              <strong>Course Website</strong>: <a href="http://kixlab.org/courses/crowdsourcing/">http://kixlab.org/courses/crowdsourcing/</a><br/>
+	              <strong>Submission &amp; Grading</strong>: <a href="">KLMS</a><br/>
+	              <strong>Discussion Forum</strong>: <a href="piazza.com/kaist.ac.kr/fall2017/cs492">Piazza</a>
+	            </div>
+	          </div>         
+	        </div>        
+        </div>
+    </div>
+
+	<div class="row">
+		<div class="col-md-12">
+	        <div class="bs-component">
+	          <div class="panel panel-info">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Updates</h3>
+	            </div>
+	            <div class="panel-body">
+	              <ul>
+	              	<li>7/4: Welcome to the crowdsourcing & social computing class! We'll use Piazza for discussion. <a href="piazza.com/kaist.ac.kr/fall2017/cs492">Please sign up</a>, using your KAIST email address.</li>
+	              </ul>
+	            </div>
+	          </div>         
+	        </div>        
+        </div>
+    </div>
+
+<!--
+	<div class="row">
+		<div class="col-md-12">
+	        <div class="bs-component">
+	          <div class="panel panel-primary">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Schedule</h3>
+	            </div>
+	            <div class="panel-body">
+	              <table class="table table-striped">
+	              	<tr>
+	              		<th>Week</th>
+	              		<th>Date</th>
+	              		<th class="topic">Topic</th>
+	              		<th class="reading">Reading <em><small>(<span class="label label-primary">response</span> indicates a reading response is required for the article.)</em></small></th>
+	              		<th>Due</th>
+	              	</tr>
+              		<tr>
+              			<td>1</td>
+              			<td>8/29</td>
+              			<td>Introduction & Course Info (<a href="https://www.dropbox.com/s/ss4p7cw2ms53fuz/20160901-01-Intro.pdf?dl=0">PDF</a>)</td>
+              			<td class="reading"></td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>1</td>
+              			<td>8/31</td>
+              			<td>Introduction to crowdsourcing and human computation (<a href="https://www.dropbox.com/s/s2msnvfy7zmx3iq/20160906-02-Crowdsourcing-Human-Computation.pdf?dl=0">PDF</a>)<br/>
+              			Discussion by Juho (<a href="https://www.dropbox.com/s/70ahlkz9zhrjifu/20160906-02-Discussion.pdf?dl=0">PDF</a>)</td>
+              			<td class="reading">(1) Howe, Jeff. <a href="http://www.wired.com/2006/06/crowds/">"The rise of crowdsourcing."</a> Wired magazine 14.6 (2006): 1-4.<br/>
+              			(2) Quinn, Alexander J., and Bederson, Benjamin B. <a href="http://dl.acm.org/citation.cfm?id=1979148">"Human computation: a survey and taxonomy of a growing field."</a> CHI 2011.
+              			</td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>2</td>
+              			<td>9/8</td>
+              			<td>Crowdsourcing platforms (<a href="https://www.dropbox.com/s/jhvmsp5e4ghgamb/20160906-03-Platforms.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Oisin (<a href="https://www.dropbox.com/s/cfg9bos6ks1unw6/Presentation-20160908.pdf?dl=0">PDF</a>)</td>
+              			<td>(1) <span class="label label-primary">response</span> Ipeirotis, Panagiotis G. <a href="http://dl.acm.org/citation.cfm?id=1869094">"Analyzing the amazon mechanical turk marketplace."</a> XRDS: Crossroads 17.2 (2010): 16-21.<br/>
+              			(2) <span class="label label-primary">response</span> Geiger, David, et al. <a href="http://aisel.aisnet.org/cgi/viewcontent.cgi?article=1396&context=amcis2011_submissions">"Managing the Crowd: Towards a Taxonomy of Crowdsourcing Processes."</a> AMCIS. 2011.<br/>
+              			(3) Vakharia, Donna, and Matthew Lease. <a href="http://arxiv.org/abs/1310.1672">"Beyond AMT: An analysis of crowd work platforms."</a> arXiv preprint arXiv:1310.1672 (2013).
+              			</td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>2</td>
+              			<td>9/13</td>
+              			<td>Worker Issues in Crowdsourcing (<a href="https://www.dropbox.com/s/1pphgi2wgj5zolj/20160913-04-Workers.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Sang-gyun (<a href="https://www.dropbox.com/s/f0ny2fpgb4je4ud/Presentation-20160913.pdf?dl=0">PDF</a>)</td>
+              			<td>(1) <span class="label label-primary">response</span> Irani, Lilly C., and M. Silberman. <a href="http://dl.acm.org/citation.cfm?id=2470742">"Turkopticon: interrupting worker invisibility in amazon mechanical turk."</a> CHI 2013.<br/>
+              			(2) <span class="label label-primary">response</span> Martin, David, et al. <a href="http://dl.acm.org/citation.cfm?id=2531663">"Being a turker."</a> CSCW 2014.<br/>
+              			(3) Bigham, Jeffrey P. <a href="http://www.cs.cmu.edu/~jbigham/posts/2014/half-workday-as-turker.html">"My MTurk (half) Workday."</a> <br/>
+              			(4) Gray, Mary L., et al. <a href="http://dl.acm.org/citation.cfm?id=2819942">"The crowd is a collaborative network."</a> CSCW 2016.
+              			</td>
+              			<td><a href="http://kixlab.org/courses/crowdsourcing/assignments.html#1">Assignment 1: Be a crowd worker</a></td>
+              		</tr>
+					<tr>
+              			<td>3</td>
+              			<td>9/15</td>
+              			<td class="no-class">No class (Chuseok)</td>
+              			<td></td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>3</td>
+              			<td>9/20</td>
+              			<td>Technique: programming paradigms part 1 (<a href="https://www.dropbox.com/s/fcfqhe0aa3l1ecl/20160920-05-Programming%20Paradigms%201.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Youngbo (<a href="https://www.dropbox.com/s/gdfzrfkobq1rgf2/Presentation-20160920.pdf?dl=0">PDF</a>)
+                    </td>
+              			<td>(1) <span class="label label-primary">response</span> Little, Greg, et al. <a href="http://dl.acm.org/citation.cfm?id=1866040">"Turkit: human computation algorithms on mechanical turk."</a> UIST 2010.<br/>
+              			(2) Little, Greg, et al. <a href="http://dl.acm.org/citation.cfm?id=1837907">"Exploring iterative and parallel human computation processes."</a> Proceedings of the ACM SIGKDD workshop on human computation. ACM, 2010.<br/>
+              			(3) Barowy, Daniel W., et al. <a href="http://dl.acm.org/citation.cfm?id=2384663">"Automan: A platform for integrating human-based and digital computation."</a> ACM SIGPLAN Notices 47.10 (2012): 639-654.</td>
+              			<td><a href="http://kixlab.org/courses/crowdsourcing/assignments.html#2">Assignment 2: Analyze crowdsourcing systems</a></td>
+              		</tr>
+                         <tr>
+              			<td>4</td>
+              			<td>9/22</td>
+              			<td>Technique: programming paradigms part 2 (<a href="https://www.dropbox.com/s/jhihnotxi21vcnz/20160922-06-Programming%20Paradigms%202.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Juho (slides in the main material)
+                    </td>
+              			<td>(1) <span class="label label-primary">response</span> Bernstein, Michael S., et al. <a href="http://dl.acm.org/citation.cfm?id=1866078">"Soylent: a word processor with a crowd inside."</a> UIST 2010.<br/>
+              			(2) <span class="label label-primary">response</span> Kittur, Aniket, et al. <a href="http://dl.acm.org/citation.cfm?id=2047202">"Crowdforge: Crowdsourcing complex work."</a> UIST 2011. <br/>
+              			(3) Ahmad, Salman, et al. <a href="http://dl.acm.org/citation.cfm?id=2047203">"The jabberwocky programming environment for structured social computing."</a> UIST 2011.
+              			</td>
+              			<td><a href="http://kixlab.org/courses/crowdsourcing/final-project.html#0">Project 0: Team Formation</a></td>
+              		</tr>
+              		<tr>
+              			<td>4</td>
+              			<td>9/27</td>
+              			<td>Technique: quality control part 1(<a href="https://www.dropbox.com/s/nglt9b2yfqgxbkm/20160927-07-Quality%20Control%201.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Junsoo (<a href="https://www.dropbox.com/s/87f86iyb3omy4j7/Presentation-20160927.pdf?dl=0">PDF</a>)</td>
+              			<td>(1) <span class="label label-primary">response</span> Harris, Mark. <a href="https://backchannel.com/how-a-lone-hacker-shredded-the-myth-of-crowdsourcing-d9d0534f1731#.2xyb0jrlo">"How a lone hacker shredded the myth of crowdsourcing."</a><br/>
+              			(2) <span class="label label-primary">response</span> Snow, Rion, et al. <a href="http://dl.acm.org/citation.cfm?id=1613751">"Cheap and fast---but is it good?: evaluating non-expert annotations for natural language tasks."</a> EMNLP 2008.<br/>
+              			(3) Zaidan, Omar F., and Chris Callison-Burch. <a href="http://dl.acm.org/citation.cfm?id=2002626">"Crowdsourcing translation: Professional quality from non-professionals."</a> ACL 2011.
+              			</td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>5</td>
+              			<td><span style="text-decoration: line-through;">9/29</span><br/><strong>8pm 10/5</strong></td>
+              			<td>Technique: quality control part 2(<a href="https://www.dropbox.com/s/b7xbzedwvhxs6zq/20161005-08-Quality%20Control%202.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Goh (<a href="https://www.dropbox.com/s/1a8f958mrji7zuq/Presentation-20161005.pdf?dl=0">PDF</a>)</td>
+              			<td><span class="label label-primary">response</span> : choose one from (1)-(3)<br/>
+                    (1) Ipeirotis, Panos. <a href="http://www.behind-the-enemy-lines.com/2010/09/worker-evaluation-in-crowdsourcing-gold.html">"Worker Evaluation in Crowdsourcing: Gold Data or Multiple Workers?"</a><br/>
+              			(2) Gaikwad, Snehalkumar (Neil) S. et al. <a href="http://hci.stanford.edu/publications/2016/boomerang/boomerang-uist.pdf">"Boomerang: Rebounding the Consequences of Reputation Feedback on Crowdsourcing Platforms."</a> UIST 2016 (in press).<br/>
+              			(3) Chilton, Lydia B., et al. <a href="http://dl.acm.org/citation.cfm?id=1837889">"Task search in a human computation market."</a> SIGKDD workshop on human computation 2010.
+                    (3) Rzeszotarski, Jeffrey, and Aniket Kittur. <a href="http://dl.acm.org/citation.cfm?id=2380125">"CrowdScape: interactively visualizing user behavior and output."</a> UIST 2012.
+                    </td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>5</td>
+              			<td><span style="text-decoration: line-through;">10/4</span><br/><strong>8pm 10/7</strong></td>
+              			<td>Technique: realtime crowdsourcing (<a href="https://www.dropbox.com/s/09mtz3tuv79rqal/20161006-09-Realtime%20Crowdsourcing.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Yekaterina &amp; Nurzhan (<a href="https://www.dropbox.com/s/evkb310r33keudk/Presentation-20161007.pdf?dl=0">PDF</a>)</td>
+              			<td>(1) <span class="label label-primary">response</span> Bigham, Jeffrey P., et al. <a href="http://dl.acm.org/citation.cfm?id=1866080">"VizWiz: nearly real-time answers to visual questions."</a> UIST 2010. <br/>
+              			(2) <span class="label label-primary">response</span> Bernstein, Michael S., et al. <a href="http://dl.acm.org/citation.cfm?id=2047201">"Crowds in two seconds: Enabling realtime crowd-powered interfaces."</a> UIST 2011.</td>
+              			<td><a href="http://kixlab.org/courses/crowdsourcing/final-project.html#1">Project 1: Idea</a></td>
+              		</tr>
+              		<tr>
+              			<td>6</td>
+              			<td>10/6</td>
+              			<td>Technique: crowd agents (<a href="https://www.dropbox.com/s/ys66s6sm2vzmyxc/20161006-10-Crowd%20Agents.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Umair (<a href="https://www.dropbox.com/s/juji8icbxdfgwnf/Presentation-20161006.pdf?dl=0">PDF</a>)</td>
+              			<td><span class="label label-primary">response</span> : choose one from (1)-(3)<br/>
+              			(1) Lasecki, Walter S., et al. <a href="http://dl.acm.org/citation.cfm?id=2380122">"Real-time captioning by groups of non-experts."</a> UIST 2012. <br/>
+              			(2) Lasecki, Walter S., et al. <a href="http://dl.acm.org/citation.cfm?id=2502057">"Chorus: a crowd-powered conversational assistant."</a> UIST 2013. <br/>
+              			(3) Lasecki, Walter S., et al. <a href="http://dl.acm.org/citation.cfm?id=2702565">"Apparition: Crowdsourced user interfaces that come to life as you sketch them."</a> CHI 2015.</td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>6</td>
+              			<td>10/11</td>
+              			<td>Design: workflow design & task decomposition part 1(<a href="https://www.dropbox.com/s/nm9570s5u8l688c/20161011-11-Workflow%201.pdf?dl=0">PDF</a>)<br/>Discussion by Jean (<a href="https://www.dropbox.com/s/g9s6obg4o89kv9m/Presentation-20161011.pdf?dl=0">PDF</a>)</td>
+              			<td>(1) <span class="label label-primary">response</span> Kulkarni, Anand, Matthew Can, and Bjoern Hartmann. <a href="http://dl.acm.org/citation.cfm?id=2145354">"Collaboratively crowdsourcing workflows with turkomatic."</a> CSCW 2012. <br/>
+              			(2) <span class="label label-primary">response</span> Zhang, Haoqi, et al. <a href="http://dl.acm.org/citation.cfm?id=2207708">"Human computation tasks with global constraints."</a> CHI 2012.</td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>7</td>
+              			<td>10/13</td>
+              			<td>Design: workflow design & task decomposition part 2(<a href="https://www.dropbox.com/s/s5yuxk59wxz4inm/20161013-12-Workflow%202.pdf?dl=0">PDF</a>)<br/>Discussion by Jiwoo (<a href="https://www.dropbox.com/s/lamqtphzrjc8747/Presentation-20161013.pdf?dl=0">PDF</a>)</td>
+              			<td><span class="label label-primary">response</span> : choose one from (1)-(3)<br/>
+              			(1) Chilton, Lydia B., et al. <a href="http://dl.acm.org/citation.cfm?id=2466265">"Cascade: Crowdsourcing taxonomy creation."</a> CHI 2013. <br/>
+              			(2) Kim, Juho, et al. <a href="http://dl.acm.org/citation.cfm?id=2556986">"Crowdsourcing step-by-step information extraction to enhance existing how-to videos."</a> CHI 2014. <br/>
+              			(3) Noronha, Jon, et al. <a href="http://dl.acm.org/citation.cfm?id=2047198">"Platemate: crowdsourcing nutritional analysis from food photographs."</a> UIST 2011.</td>
+              			<td><a href="http://kixlab.org/courses/crowdsourcing/final-project.html#2">Project 2: Story</a></td>
+              		</tr>
+              		<tr>
+              			<td>7</td>
+              			<td>10/18</td>
+              			<td>Project Feedback Session</td>
+              			<td></td>
+              			<td></td>
+              		</tr>              		
+              		<tr>
+              			<td>8</td>
+              			<td>10/20</td>
+              			<td>Project Proposal Pitches & Feedback</td>
+              			<td></td>
+              			<td><a href="http://kixlab.org/courses/crowdsourcing/final-project.html#3">Project 3: Pitch</a></td>
+              		</tr>
+              		<tr>
+              			<td>8</td>
+              			<td>10/25</td>
+              			<td class="no-class">No class (Midterms week)</td>
+              			<td></td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>9</td>
+              			<td>10/27</td>
+              			<td>Design: incentives<br/>
+                    <strong>GUEST LECTURE by <a href="http://www.eecs.harvard.edu/~kgajos/">Krzysztof Gajos</a> (Harvard University)</strong><br/>
+                    Discussion by Juho Sun (<a href="https://www.dropbox.com/s/p6gmllbzg1fvzik/Presentation-20161027.pdf?dl=0">PDF</a>)</td>
+              			<td>
+                    (1) <span class="label label-primary">response</span> Reinecke, Katharina, and Krzysztof Z. Gajos. <a href="http://dl.acm.org/citation.cfm?id=2675246">"LabintheWild: Conducting Large-Scale Online Experiments With Uncompensated Samples."</a> CSCW 2015.<br/>
+                    (2) Mason, Winter, and Duncan J. Watts. <a href="http://dl.acm.org/citation.cfm?id=1809422">"Financial incentives and the performance of crowds."</a> ACM SIGKDD Explorations Newsletter 11.2 (2010): 100-108.<br/>
+                    (3) Hsieh, Gary, and Rafal Kocielnik. <a href="http://dl.acm.org/citation.cfm?id=2819936">"You Get Who You Pay for: The Impact of Incentives on Participation Bias."</a> CSCW 2016.
+
+                    </td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>9</td>
+              			<td>11/1</td>
+              			<td>Design: games and gamification (<a href="https://www.dropbox.com/s/2pvtvx9nmggx243/20161101-16-Gamification.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Hyunsung (<a href="https://www.dropbox.com/s/54bmo2h7r573hy0/Presentation-20161101.pdf?dl=0">PDF</a>)</td>
+              			<td><span class="label label-primary">response</span> : choose one from (1)-(3)<br/>
+                    (1) Von Ahn, Luis, and Laura Dabbish. <a href="http://dl.acm.org/citation.cfm?id=985733">"Labeling images with a computer game."</a> CHI 2004.<br/>
+                    (2) Cooper, Seth, et al. <a href="http://www.nature.com/nature/journal/v466/n7307/abs/nature09304.html">"Predicting protein structures with a multiplayer online game."</a> Nature 466.7307 (2010): 756-760.<br/>
+                    (3) Deterding, Sebastian, et al. <a href="http://dl.acm.org/citation.cfm?id=2181040">"From game design elements to gamefulness: defining gamification."</a> MindTrek 2011.
+                    </td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>10</td>
+              			<td>11/3</td>
+              			<td class="no-class">No class (students are encouraged to attend <a href="https://www.microsoft.com/en-us/research/event/computing-21st-century-2016/">Computing in the 21st Century 2016</a>)</td>
+              			<td></td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>10</td>
+              			<td>11/8</td>
+              			<td>Design: experimentation & analysis (<a href="https://www.dropbox.com/s/v36s6iwznq9umwg/20161108-17-Experimentation.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Hoon and Sunggeun (<a href="https://www.dropbox.com/s/w9gr48iptrkam2x/Presentation-20161108.pdf?dl=0">PDF</a>)</td>
+              			<td><span class="label label-primary">response</span> : choose TWO from (1)-(3)<br/>
+                    (1) Kittur, Aniket, Ed H. Chi, and Bongwon Suh. <a href="http://dl.acm.org/citation.cfm?id=1357127">"Crowdsourcing user studies with Mechanical Turk."</a> CHI 2008.<br/>
+                    (2) Salganik, Matthew J., and Karen EC Levy. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0123483">"Wiki surveys: Open and quantifiable social data collection."</a> PloS one 10.5 (2015): e0123483.<br/>
+                    (3) Kohavi, Ron, et al. <a href="http://dl.acm.org/citation.cfm?id=2488217">"Online controlled experiments at large scale."</a> KDD 2013.
+                    </td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>11</td>
+              			<td>11/10</td>
+              			<td>Application: data labeling, computer vision, NLP (<a href="https://www.dropbox.com/s/9iokl7qmf2rfd3a/20161110-18-Data%2CCV%2CNLP.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Oscar (<a href="https://www.dropbox.com/s/7hmh2v03pum4hjs/Presentation-20161110.pdf?dl=0">PDF</a>)</td>
+              			<td><span class="label label-primary">response</span> : choose one from (1)-(3)<br/>
+                    (1) Deng, Jia, et al. <a href="http://ieeexplore.ieee.org/document/5206848/?arnumber=5206848&tag=1">"Imagenet: A large-scale hierarchical image database."</a> CVPR 2009.<br/>
+                    (2) Russell, Bryan C., et al. <a href="http://link.springer.com/article/10.1007/s11263-007-0090-8">"LabelMe: a database and web-based tool for image annotation."</a> International journal of computer vision 77.1-3 (2008).<br/>
+                    (3) Callison-Burch, Chris. <a href="http://dl.acm.org/citation.cfm?id=1699548">"Fast, cheap, and creative: evaluating translation quality using Amazon's Mechanical Turk."</a> EMNLP 2009.
+                    </td>
+              			<td><a href="http://kixlab.org/courses/crowdsourcing/final-project.html#4">Project 4: Low-Fi Prototype</a></td>
+              		</tr>
+              		<tr>
+              			<td>11</td>
+              			<td>11/15</td>
+              			<td>Application: Machines and Crowds (<a href="https://www.dropbox.com/s/7yebtobqhjlzg73/20161110-19-Machines%2BCrowds.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Youngjae (<a href="https://www.dropbox.com/s/vfumy2k3d3abssz/Presentation-20161115.pdf?dl=0">PDF</a>)</td>
+              			<td><span class="label label-primary">response</span> : choose TWO from (1)-(3)<br/>
+                    (1) Laput, Gierad, et al. <a href="http://dl.acm.org/citation.cfm?id=2702416">"Zensors: Adaptive, rapidly deployable, human-intelligent sensor feeds."</a> CHI 2015.<br/>
+                    (2) Williams, Joseph Jay, et al. <a href="http://dl.acm.org/citation.cfm?id=2876042">"AXIS: Generating Explanations at Scale with Learnersourcing and Machine Learning."</a> Learning at Scale 2016.<br/>   
+                    (3) Cheng, Justin, and Michael S. Bernstein. <a href="http://dl.acm.org/citation.cfm?id=2675214">"Flock: Hybrid crowd-machine learning classifiers."</a> CSCW 2015.
+                    </td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>12</td>
+              			<td>11/17</td>
+              			<td>Application: can the crowd learn? Learnersourcing (<a href="https://www.dropbox.com/s/160cwyzeanqx7gy/20161117-20-Learnersourcing.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Yoo Jin (<a href="https://www.dropbox.com/s/r63fsxwasxiai6z/Presentation-20161117.pdf?dl=0">PDF</a>)</td>
+              			<td><span class="label label-primary">response</span> : choose one from (1)-(3)<br/>
+                    (1) Weir, Sarah, et al. <a href="http://dl.acm.org/citation.cfm?id=2675219">"Learnersourcing subgoal labels for how-to videos."</a> CSCW 2015.<br/>
+                    (2) D. Bragg, K. Rector, R.E. Ladner. <a href="http://dl.acm.org/citation.cfm?doid=2675133.2675226">"A User-Powered American Sign Language Dictionary."</a> CSCW 2015.<br/>
+                    (3) Glassman, Elena L., et al. <a href="http://dl.acm.org/citation.cfm?id=2702304">"Mudslide: A spatially anchored census of student confusion for online lecture videos."</a> CHI 2015. 
+                    </td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>12</td>
+              			<td>11/22</td>
+              			<td>Application: feedback & creativity (<a href="https://www.dropbox.com/s/kjdvdrj2jc5gv8b/20161122-21-Feedback-Creativity.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Yungi (<a href="https://www.dropbox.com/s/d3cedv2bu2vbsye/Presentation-20161122.pdf?dl=0">PDF</a>)</td>
+              			<td><span class="label label-primary">response</span> : choose TWO from (1)-(3)<br/>
+                    (1) Chinmay E. Kulkarni, Michael S. Bernstein, and Scott R. Klemmer. <a href="http://dl.acm.org/citation.cfm?id=2724670">"PeerStudio: Rapid Peer Feedback Emphasizes Revision and Improves Performance."</a> Learning @ Scale 2015.<br/>
+                    (2) Kurt Luther et al. <a href="http://dl.acm.org/citation.cfm?id=2675283">"Structuring, Aggregating, and Evaluating Crowdsourced Design Critique."</a> CSCW 2015.<br/>
+                    (3) Pao Siangliulue et al. <a href="http://dl.acm.org/citation.cfm?id=2984578">"IdeaHound: Improving Large-scale Collaborative Ideation with Crowd-Powered Real-time Semantic Modeling."</a> UIST 2016.
+                    </td>
+              			<td><a href="http://kixlab.org/courses/crowdsourcing/final-project.html#5">Project 5: Mid-fi Prototype</a></td>
+              		</tr>
+              		<tr>
+              			<td>13</td>
+              			<td>11/24</td>
+              			<td class="no-class">No class (Undergraduate admission interviews)</td>
+              			<td></td>
+              			<td><a href="http://kixlab.org/courses/crowdsourcing/assignments.html#3">Assignment 3: Heuristic Evaluation</a></td>
+              		</tr>
+              		<tr>
+              			<td>13</td>
+              			<td>11/29</td>
+              			<td>Application: civic engagement (<a href="https://www.dropbox.com/s/hcv9f38u7s7pq37/20161129-22-Civic-Engagement.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Paul (<a href="https://www.dropbox.com/s/tm04q8kevztynj1/Presentation-20161129.pdf?dl=0">PDF</a>)</td>
+              			<td><span class="label label-primary">response</span> : choose TWO from (1)-(3)<br/>
+                    (1) Haklay, Mordechai, and Patrick Weber. <a href="http://ieeexplore.ieee.org/document/4653466/?arnumber=4653466">"Openstreetmap: User-generated street maps."</a> IEEE Pervasive Computing 7.4 (2008): 12-18.<br/>
+                    (2) Kim, Nam Wook, et al. <a href="http://dl.acm.org/citation.cfm?id=2820004">"Budgetmap: Engaging taxpayers in the issue-driven classification of a government budget."</a> CSCW 2016.<br/>
+                    (3) Heimerl, Kurtis, et al. <a href="http://dl.acm.org/citation.cfm?id=2208619">"CommunitySourcing: engaging local crowds to perform expert work via physical kiosks."</a> CHI 2012.
+                    </td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>14</td>
+              			<td>12/1</td>
+              			<td>Application: citizen science and participatory sensing (<a href="https://www.dropbox.com/s/bjjmzelk7a6j0vb/20161201-23-Citizen-Science-Participatory-Sensing.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Noé (<a href="https://www.dropbox.com/s/ilsmspz3y5b77bf/Presentation-20161201.pdf?dl=0">PDF</a>)</td>
+              			<td><span class="label label-primary">response</span> : choose one from (1)-(3)<br/>
+                    (1) Bonney, Rick, et al. <a href="http://bioscience.oxfordjournals.org/content/59/11/977.short">"Citizen science: a developing tool for expanding science knowledge and scientific literacy."</a> BioScience 59.11 (2009): 977-984.<br/>
+                    (2) Sullivan, Brian L., et al. <a href="http://www.sciencedirect.com/science/article/pii/S000632070900216X">"eBird: A citizen-based bird observation network in the biological sciences."</a> Biological Conservation 142.10 (2009).<br/>
+                    (3) Goldman, Jeffrey, et al. <a href="https://www.wilsoncenter.org/sites/default/files/participatory_sensing.pdf">"Participatory Sensing: A citizen-powered approach to illuminating the patterns that shape our world."</a> Foresight & Governance Project, White Paper (2009).<br/>   
+                    </td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>14</td>
+              			<td>12/6</td>
+              			<td>Application: teamwork and expert crowdsourcing (<a href="https://www.dropbox.com/s/kpo3awmglhi1qtt/20161206-24-Teamwork-Expert-Crowdsourcing.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Miro (<a href="https://www.dropbox.com/s/eyqsd46xwi6lrmh/Presentation-20161206.pdf?dl=0">PDF</a>)</td>
+              			<td><span class="label label-primary">response</span> : choose one from (1)-(3)<br/>
+                    (1) Woolley, Anita Williams, et al. <a href="http://science.sciencemag.org/content/330/6004/686">"Evidence for a collective intelligence factor in the performance of human groups."</a> Science 330.6004 (2010)<br/>
+                    (2) Retelny, Daniela, et al. <a href="http://dl.acm.org/citation.cfm?id=2647409">"Expert crowdsourcing with flash teams."</a> UIST 2014.<br/>
+                    (3) Salehi, Niloufar, et al. <a href="http://hci.stanford.edu/publications/2017/huddler/Huddler_CSCW2017.pdf">"Huddler: Convening Stable and Familiar Crowd Teams Despite Unpredictable Availability."</a> CSCW 2017.
+                    </td>
+              			<td><a href="http://kixlab.org/courses/crowdsourcing/final-project.html#6">Project 6: Hi-Fi Prototype</a></td>
+              		</tr>
+              		<tr>
+              			<td>15</td>
+              			<td>12/8</td> 
+              			<td>Application: accessibility (<a href="https://www.dropbox.com/s/0vygv64x77vo78t/20161208-25-Accessibility.pdf?dl=0">PDF</a>)<br/>
+                    Discussion by Young-Min (<a href="https://www.dropbox.com/s/ezu7m0rwoku82iq/Presentation-20161208.pdf?dl=0">PDF</a>)</td>
+              			<td><span class="label label-primary">response</span> : choose one from (1)-(2)<br/>
+                    (1) Guo, Anhong, et al. <a href="http://dl.acm.org/citation.cfm?id=2984518">"VizLens: A Robust and Interactive Screen Reader for Interfaces in the Real World."</a> UIST 2016.<br/>
+                    (2) Hara, Kotaro, et al. <a href="http://dl.acm.org/citation.cfm?id=2647403">"Tohme: detecting curb ramps in google street view using crowdsourcing, computer vision, and machine learning."</a> UIST 2014.   
+                    </td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>15</td>
+              			<td>12/13</td>
+              			<td>The future of crowd work (<a href="https://www.dropbox.com/s/zqp4p0ldst1tdkm/20161213-26-Future-of-Crowd-Work.pdf?dl=0">PDF</a>) <br/>
+                    Discussion by Sungjae (<a href="https://www.dropbox.com/s/ttriltsd0fv5zsn/Presentation-20161213.pdf?dl=0">PDF</a>)</td>
+              			<td>
+                    (1) <span class="label label-primary">response</span> Kittur, Aniket, et al. <a href="http://dl.acm.org/citation.cfm?id=2441923">"The future of crowd work."</a> CSCW 2013.<br/>
+                    (2) Licklider, Joseph CR. <a href="http://ieeexplore.ieee.org/document/4503259/?arnumber=4503259&tag=1">"Man-computer symbiosis."</a> IRE transactions on human factors in electronics 1 (1960): 4-11.<br/>
+                    (3) <a href="https://www.youtube.com/watch?v=7Pq-S557XQU">Humans Need Not Apply</a> (15-min video)
+                    </td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>16</td>
+              			<td>12/15</td>
+              			<td>Final Project Presentations</td>
+              			<td></td>
+              			<td><a href="http://kixlab.org/courses/crowdsourcing/final-project.html#7">Project 7: Final Presentations</a></td>
+              		</tr>
+              		<tr>
+              			<td>16</td>
+              			<td>12/20</td>
+              			<td class="no-class">No class (Finals week)</td>
+              			<td></td>
+              			<td></td>
+              		</tr>
+	              </table>
+	            </div>
+	          </div>         
+	        </div>        
+        </div>
+    </div>
+
+
+-->
+
+	<div class="row">
+    <div class="col-md-4">
+          <div class="bs-component">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Topics (tentative)</h3>
+              </div>
+              <div class="panel-body">
+                Major topics include:
+                <ul>
+                 <li>Crowdsourcing and human computation</li>
+                 <li>Social computing platforms</li>
+                 <li>Social networks and online communities</li>
+                 <li>Computer supported collaborative work</li>
+                 <li>Privacy and ethics</li>
+                 <li>Incentives and gamification</li>
+                 <li>Online experimentation and analysis</li>
+                 <li>Programming paradigms</li>
+                 <li>Quality control and fighting malicious behaviors</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+		<div class="col-md-4">
+	        <div class="bs-component">
+	          <div class="panel panel-primary">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Grading</h3>
+	            </div>
+	            <div class="panel-body">
+	            <ul>
+	            	<li>Topic Presentation: 20%</li>
+      					<li>Reading responses: 20%</li>
+      					<li>Assignments: 20%</li>
+      					<li>Final project: 30%</li>
+      					<li>Class participation: 10%</li>
+				      </ul>
+
+      				<strong>Late policy</strong>: Three lowest reading response grades will be removed. No late submissions are allowed for the reading responses. For assignments and project milestones, you'll lose 10% for each late day. Submissions will be accepted until three days after the deadline.
+	            </div>
+	          </div>         
+	        </div>	        
+        </div>
+		<div class="col-md-4">
+	        <div class="bs-component">
+	          <div class="panel panel-primary">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Prerequisites</h3>
+	            </div>
+	            <div class="panel-body">
+	            There are no official course prerequisites. But assignments and the final project will require building features of a crowdsourcing / social computing system, so programming skills are needed. Knowledge or research experience in HCI (CS374 or equivalent) or social computing is useful, but not required. 
+	            </div>
+	          </div>         
+	        </div>	        
+        </div>   
+    </div>
+
+</div>
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="dist/js/ripples.min.js"></script>
+<script src="dist/js/material.min.js"></script>
+<script>
+  $(function () {
+    $.material.init();
+  });
+</script>
+
+</body>
+</html>
