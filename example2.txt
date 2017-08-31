@@ -1,0 +1,23 @@
+Response to "Being a Turker"
+
+
+The paper, "Being a Turker", is an ethnomethodological analysis of Turker Nation, which is a general forum for
+Amazon Mechanical Turk (AMT) users. From the forum data, the paper presents new findings about Turkers. First,
+Turkers treat their tasks as work where pay is the most important factor. They view AMT as a labor marketplace
+where selecting a good job and having a good relationship with the requester matter. This work is important because
+it provides a richer understanding of Turkers, who are real people behind the human computation process. More
+work like this focusing on workers¡¯ perspective can guide designers of future crowdsourcing systems.
+
+
+I learned about how the crowdsourced workers view and feel about their microtasks. Contrary to my expectation,
+AMT work was treated as real job for many Turkers rather than fun activities. This meant the pay rate of tasks
+significantly influences Turkers. I liked how the authors conducted extensive searches through the forum and
+included interesting excerpts in the paper. As a result, the paper read like a story of real people, who had been
+largely overshadowed by the grand scheme of human computation.
+
+
+This paper took a qualitative approach of ethnomethodology to analyze a community of Turkers. As an
+ethnomethodological analysis, the paper has a known methodological issue that the generalizability of the study may
+be limited. Although the authors referenced a few other online Turker communities, their core site of data collection
+remained Turker Nation. I think this paper could be improved by taking their analysis beyond Turker Nation and
+providing a comparison of workers from various crowdsourcing platforms.

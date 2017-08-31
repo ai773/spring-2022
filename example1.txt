@@ -1,0 +1,30 @@
+Response to: "Managing the Crowd: Towards a Taxonomy of Crowdsourcing Processes."
+
+
+This paper proposes a generic taxonomical scheme for crowdsourcing process. This is intended to give
+better insights on deciding methodologies for crowdsourcing. The development of the classification is done by
+following: 1) Identification of four dimensions (preselection rules, mutual accessibility of participants, aggregation
+strategies, and rewarding policies) that determine the characteristics of crowdsourcing. The paper also
+determines types of crowdsourcing projects on each dimension, as a criteria for classification. 2) Using the
+taxonomical framework, the authors grouped 19 distinct process combinations from 46 examples. 3) They did
+cluster analysis to get five clusters of crowdsourcing processes. The result of analysis implies aggregation and
+rewards are more impacting on grouping than preselection and accessibility.
+
+
+Above all, I have learned the taxonomy that can be useful in development of crowdsourcing.
+Furthermore, I have learned the general process of establishing taxonomical framework and applying it.
+Establishing criteria for each dimension was the most interesting part of this paper. When there is a confliction
+between the authors' point of view and the previous works, this paper tried to reason, and I agreed with the
+reasons. For example, this paper "No reward" type in remuneration dimension, and this rebuffs previous works’
+point of view that having "Voluntary Contribution" type in the dimension. I agree with the authors' idea, because I
+also think motivational factors are not easy to be measured quantitatively.
+
+
+Reading this paper, I was worried about the number of examples used for this research because it is too
+small. This is already mentioned by the authors because it could lead different cluster analysis. In my opinion,
+however, when there are more examples, this could also impact the establishment of dimensions and possible
+types of crowdsourcing in each dimension. What if there is a crowdsourcing project that has a striking
+characteristic that leads to adding new dimension? I think this could affect the basis of grouping and clustering.
+Additionally, there could be some dimensions that tightly related to others. Verifying the relationship or influence
+of one dimension on each dimension also could answer why some combinations are more frequently appear
+while some combinations are even never appear, or cause an establishment of a new dimensions to consider.
