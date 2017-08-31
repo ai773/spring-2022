@@ -10,12 +10,13 @@
 
 # Today
 - our crowd
-- course logistics
+- course overview in detail
 - intro
 - example discussion
 
 
-# Student survey questions
+
+# Student survey questions (5 mins)
 - Student background (majors)
 - Grad vs undergrad
 - HCI class / research experience
@@ -24,26 +25,31 @@
 - Who were not here in the first class?
 
 
-# Course overview
+# Course overview (30 mins)
 - laptop and phones: some internet connection device might be necessary
 - more details on each component
 	- topic presentation
 		- grading rubric
-	- team project: not necessarily today
 	- reading response
 		- three levels
 		- examples
-	- assignments
+	- team project: not necessarily today
+	- assignments: not necessarily today
 		- grading rubric?
 
-# Example Paper Discussion by Me
+
+# Intro to concepts (10 mins)
+
+# Example Paper Discussion by Me (30 mins)
 - paper summary
-- discussion
-- activity
+- discussion: had no time
+- activity: 10 mins + 5 mins reflection
 
 ===
 
 # Post-mortem
 
-https://www.wired.com/story/amazons-turker-crowd-has-had-enough/ to the reading
+- 10 mins not enough for the activity
+	- reduce the num tasks to 1 good and 1 bad
+	
 
