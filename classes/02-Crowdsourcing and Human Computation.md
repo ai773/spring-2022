@@ -45,4 +45,5 @@
 
 # Post-mortem
 
+https://www.wired.com/story/amazons-turker-crowd-has-had-enough/ to the reading
 
