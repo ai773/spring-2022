@@ -51,5 +51,13 @@
 
 - 10 mins not enough for the activity
 	- reduce the num tasks to 1 good and 1 bad
+	- also, give more guidance in the questions. Rather than just why or why not, ask
+		- how does this task benefit from having lots of people?
+		- why make an open call?
+		- why reach out to non-experts? to humans?
+		
+- Open the topic presentation form after class
+	- students are distracted to do it during class
+
 	
 
