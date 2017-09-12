@@ -19,4 +19,7 @@
 - the whole 75 minutes were filled
 - more hands-on activity would be good
 
-
+Examples
+- Ten thousand cents (Aaron Koblin)
+- Star Wars Uncut
+- Reddit Flag

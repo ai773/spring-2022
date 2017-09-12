@@ -55,9 +55,11 @@
 		- how does this task benefit from having lots of people?
 		- why make an open call?
 		- why reach out to non-experts? to humans?
-		
+
 - Open the topic presentation form after class
 	- students are distracted to do it during class
 
 	
+- Reading: "Crowdsourcing Systems on the WWW" might be a better first reading students should do.
+
 

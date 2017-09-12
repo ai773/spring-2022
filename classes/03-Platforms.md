@@ -19,4 +19,9 @@
 # Student Presentation
 
 # Postmortem
+- The KAIST crowdsourcing platform activity went pretty well.
+	- Ask an additional question of why this task can be done well by the "KAIST" crowd.
+
+
+
 
