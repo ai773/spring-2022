@@ -31,6 +31,10 @@
 	.no-class {
 		background-color: lightgrey;
 	}
+  .alert .due {
+    font-weight: bold;
+    color: white;
+  }
   </style>
   <title>CS492: Crowdsourcing | KAIST Fall 2017</title>
 </head>
@@ -259,7 +263,7 @@
         </div>
     </div>
 
-<!--   <div class="row">
+<div class="row">
     <div class="col-md-12">
           <div class="bs-component">
             <div class="panel panel-info">
@@ -268,34 +272,40 @@
                 <h3 class="panel-title">Story</h3>
               </div>
               <div class="panel-body">
-                <h2>Milestone 2: Tasks, Sketches, and Video</h2>
-                <h3>Due: 11:59pm on 10/13 (Thu)</h3>
+                <h2>Milestone 2: Tasks and Storyboards</h2>
+                <div class="alert alert-info">
+                  <div class="due">Due: 11:59pm on 9/29 (Fri)</div>
+                  <div class="due">10% toward your project grade</div>
+                </div>
 
-                <h2>What do I do?</h2>
-                <p>Your team will now further develop the ideas that you came up with in Milestone #1. You'll create three types of artifacts that will capture your design process. Please follow the order presented below.
+                <h2>What do we do?</h2>
+                <p>Your team will now further develop the ideas that you came up with in Milestone #1. You'll create two types of artifacts that will capture your design process. Please follow the order presented below.
                 <ul>
                   <li>
-                    <strong>Tasks</strong>: Based on the three solution ideas your team came up with, brainstorm three major <em>tasks</em> your solution wants to support. Tasks represent what the user (crowd workers or requesters) wants to achieve, rather than specific system features or UI elements. For each task, list three <strong>requirements or design goals</strong> that a solution should support. Some tips:
+                    <strong>Tasks</strong>: Based on the three solution ideas your team came up with, brainstorm three major <em>tasks</em> your solution wants to support. Tasks represent what the user (including but not limited to crowd workers, requesters, or community members) wants to achieve, rather than specific system features or UI elements. For each task, list three <strong>requirements or design goals</strong> that a solution should support. Some tips:
                       <ul>
                         <li>Make sure the three tasks are distinct from one another and cover different levels of complexity.</li>
                         <li>Be specific, and include details and context. <em>"The user wants to learn math."</em> is way too broad. Think about a particular user with their likely demographic, constraints, and motivation: <em>"Seung Hyun, a 20-year old college student, wants to learn Chinese in his spare time. While he doesn't have time to take classes or get a private tutor, he wants to use his commute time to learn useful words and phrases."</em></li>
                       </ul>
                   </li>
-                  <li><strong>Sketches</strong>: For each of the three tasks you identified, turn them into storyboard sketches. The storyboard should walk through a concrete scenario and a task, and again, shouldn't be about specific system features or UI elements. Of course you'll need to describe the solution, but focus on the concept and context, rather than pretty UIs or sophisticated system features. Some tips:
-                    <ul>
-                      <li>Before you jump to your sketch, watch the first 6 minutes of <a href="https://www.youtube.com/watch?v=lgEm67KLIIM">this video</a> by Scott Klemmer, talking about storyboards. Optionally, you can also read <a href="http://dl.acm.org/citation.cfm?id=1142410">this paper on storyboarding</a>.</li>
-                      <li>Here are <a href="http://d.ucsd.edu/class/intro-hci/2016/assignments/examples/a03example1.html">some examples</a>.</li>
-                      <li>Make sure to use a thick pen in your final version so that sketches are visible when digitally scanned. But it's a good idea to use a pencil in your first draft.</li>
-                      <li>When brainstorming what solution to include for each story, go back to the three solution ideas from Milestone #1. Join forces and think about what best elements to combine and keep, while removing some of the less promising ideas. </li>
-                    </ul>
+
+                  <li>
+                    <strong>Storyboards</strong>: Create <strong>3 storyboard sketches</strong>, one for each of the three tasks you identified. A storyboard is a set of comic-strip-like drawings that visually walks through a concrete scenario and a task that your user experiences. Show the challenge the user encounters, what environment the user is surrounded by, what motivates the user to use the solution idea you're suggesting, and how your solution idea actually addresses the challenge. The storyboard shouldn't be about specific system features or UI elements. You don't even need to show the detailed screen layout of your UI at this point. Focus on the concept and context, rather than pretty UIs or sophisticated system features.
+
+                      <ul>
+                        <li>Make sure to hand-draw your storyboards, with a thick pen so that sketches are visible when digitally scanned and excessive details are not included. Using a pencil or a thin ball-point pen is not allowed. </li>
+                        <li>Here are some good examples (<a href="https://kixlab.org/courses/crowdsourcing/projects/verbivore/tasks-sketches-video/index.html">Verbivore</a> and <a href="https://kixlab.org/courses/crowdsourcing/projects/letsread/tasks-sketches-video/index.html">Let's Read</a>), except for the fact that some of them are not drawn with a thick pen. </li>
+                        <li>Resources: Amal Dar Aziz's <a href="http://hci.stanford.edu/courses/cs147/2009/assignments/storyboard_notes.pdf">guide to storyboarding</a> is a highly recommended resource. Also, watch the first 6 minutes of <a href="https://www.youtube.com/watch?v=lgEm67KLIIM">this video</a> by Scott Klemmer, which gives a nice introduction to storyboarding.</li>
+                      </ul>
                   </li>
-                  <li><strong>Video</strong>: Now turn your three storyboards into a concept video that illustrates the three tasks. Some tips:
+
+                  <!-- <li><strong>Video</strong>: Now turn your three storyboards into a concept video that illustrates the three tasks. Some tips:
                     <ul>
                       <li>You need to set the stage: Start with a user and their context and problem. Do not show the UI sketches from the beginning.</li>
                       <li>You can include rough UI sketches to demonstrate how the user might perform the task using your system, but they need to be rough and in low fidelity.</li>
                       <li><a href="https://www.youtube.com/results?search_query=cs147+concept+video">Some examples here</a>.</li>
                     </ul>
-                  </li>
+                  </li> -->
                 </ul>
                 </p>
 
@@ -303,17 +313,39 @@
                 <p>Your report should include the three components: storyboard sketches, a concept video, and an abstract.
                 <ul>
                   <li><strong>Tasks</strong>: Description of three tasks, each about a paragraph long. For each task, include three requirements or design goals, and explain why they matter.</li>
-                  <li><strong>Sketches</strong>: Three storyboards, hand-drawn.</li>
-                  <li><strong>Video</strong>: A video clip, maximum three minutes long.</li>
+                  <li><strong>Storyboards</strong>: Three storyboards, hand-drawn.</li>
+                  <!-- <li><strong>Video</strong>: A video clip, maximum three minutes long.</li> -->
                 </ul>
                 </p>
 
-                <h2>How do I submit?</h2>
+              <h2>Grading</h2>
+              <ul>
+                <li><strong>Tasks</strong> (40%)
+                  <ul>
+                    <li>3 tasks submitted?</li>
+                    <li>Are the tasks distinct from each other?</li>
+                    <li>Do the tasks contain detailed context?</li>
+                    <li>3 requirements of goals submitted per task?</li>
+                    <li>Strong rationale provided??</li>
+                  </ul>
+                </li>  
+                <li><strong>Storyboards</strong> (60%)
+                  <ul>
+                    <li>3 storyboards submitted?</li>
+                    <li>Flow easy to follow and understand?</li>
+                    <li>Easy to read (thick pen used)?</li>
+                    <li>Not solution-driven but user- and scenario-driven?</li>
+                  </ul>
+                </li>  
+              </ul>
+
+
+                <h2>How do we submit?</h2>
                 <p>One report per team. Your report should be submitted as a <em>zip</em> file. 
                 <ul>
                   <li><strong>Tasks</strong>: In <strong><a href="https://daringfireball.net/projects/markdown/">Markdown</a></strong> (please use the <em>.md</em> extension)</li>
                   <li><strong>Sketches</strong>: Scan in png or jpg. Images need to be in a directory called <em>images</em>.</li>
-                  <li>
+<!--                   <li>
                     <strong>Video</strong> (guidelines adopted from <a href="https://chi2017.acm.org/video.html">CHI 2017 Video Showcase</a>)
                     <ul>
                       <li>Encoded as an MP4 using the H.264 codec. No exceptions!</li>
@@ -322,16 +354,16 @@
                       <li>Resolution of at least 1280px x 720px.</li>
                       <li>The 16:9 aspect ratio is recommended.</li>
                     </ul>
-                  </li>
+                  </li> -->
                   
                 </ul>
-                We're going to publish your reports on the course website. Submit your team's report on KLMS.</p>
+                Submit your team's report on <a href="http://klms.kaist.ac.kr/course/view.php?id=61577">KLMS</a>.</p>
 
               </div>
             </div>         
           </div>        
         </div>
-    </div> -->
+    </div>
 
 <!-- 
   <div class="row">
