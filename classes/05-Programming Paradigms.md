@@ -33,6 +33,14 @@ In-class iterative vs parallel workflow
 - Activity (writing down a query) needs more time.
 	- Seems to work pretty well.
 
+- System property descrpition: many got confused. The connection wasn't probably clear.
+
+- Describe the MTurk API: explain how it's a good programming / prototyping platform.
+
+- Give more "hand-raising" opportinities to students
+
+- Blurry text recognition activity created by students is a great idea, which could lead to many interesting dicsussion points.
+
 
 allourideas.org survey
 

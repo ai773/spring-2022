@@ -42,3 +42,14 @@ and let students work on developing a workflow for supporting realtime.
 # Postmortem
 
 A bit too much explanantion from me in the beginning part of the class.
+
+Worth discussing time <=> quality relationship, and why realtime poses challenges.
+
+1st activity: good for motivating the problem in quality control
+
+Check out "Be My Eyes" app. https://www.youtube.com/watch?
+v=Y7bxlR-MxxM
+
+Real deployment challenges: look at Jeff and Walter's deployment papers.
+
+

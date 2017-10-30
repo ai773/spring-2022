@@ -35,4 +35,13 @@ Workflow design activity
 # Student Presentation
 
 
+===
+
 # Postmortem
+
+- Twiddla has a 10-person limit
+	- Many students were not able to enter the room for the exercise.
+	- Does getting an account help?
+	- Make it into a multi-group activity.
+	
+

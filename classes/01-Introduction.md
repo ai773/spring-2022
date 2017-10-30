@@ -23,3 +23,6 @@ Examples
 - Ten thousand cents (Aaron Koblin)
 - Star Wars Uncut
 - Reddit Flag
+
+Consider doing a full class workshop to design a crowdsourcing app that works,
+just like in CS374. Naturally introduces students to various challenges that need to be addressed in designing a crowdsourcing system.
