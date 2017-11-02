@@ -15,11 +15,12 @@
 
 Definitions & Concepts
 - Sociotechnical system
+- CSCW
 - Computational social science
 - Social capital
 - Tie strength
 - Social translucence
-- CSCW
+
 - Social loafing
 - Organizational memory
 
@@ -52,3 +53,9 @@ Supporting different ways people can socially interact using technology. Give an
 
 
 # Postmortem
+- Class sourcing core concepts was fun and engaging
+https://docs.google.com/presentation/d/12hRYRRH1EzfFdNFoLtvD5o6r3UQq3YkF5mkiRc71eRQ/edit#slide=id.g274ddd7573_0_377
+
+- add groupware, common grounds, echo chamber, filter bubble to the concepts
+
+

@@ -57,8 +57,6 @@
 - talking about filter bubble, echo chamber was great, resonated with students
 - The Arab Spring video worked well, resonates with what's happening in Korea
 
-- consider showing a live demo of BudgetMap
-- even design a tagging activity
 
 - Paul's budgeting activity
 https://docs.google.com/forms/d/e/1FAIpQLSeqFovQLuGjMPt8h-qClesVjMSNmJmMaA3bEDuSdDjHqSaPYg/viewform
@@ -82,8 +80,7 @@ http://dspace.africaportal.org/jspui/bitstream/123456789/29753/1/Crowdsourcing%2
 	- What is the crowd's task?
 	- How good is the crowd?
 
-- https://docs.google.com/forms/d/e/1FAIpQLSea5h1VUjOlZBlfoaGXL32HDOrZD4aUsnYgfRV9BKrGX-ujYg/viewform
-
+- https://docs.google.com/forms/d/1n2s78nc2oD7TXVNUzhRP_z37QdArlEYJqvVk9t4l0aA/edit
 
 # Visual impairments
 - screen reader: show metadata, and demo
