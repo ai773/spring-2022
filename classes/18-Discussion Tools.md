@@ -6,12 +6,17 @@
 # Admin (5 min)
 
 
-# Follow-up
-Activity results: visualization
+# Activity results: visualization (10 mins)
+- pick three examples, ask students about the design and its rationale
+- class discussion: "difficulty in capturing the process"
+	- picking the right metrics is hard.
+	- actually collecting data for things that matter is hard.
 
-# Collaboration (continued)
+
+# Collaboration (continued) (15 mins)
 - Open Science with Polymath
 - Show TED talk by Michael Nielson for the first few minutes
+- Activity: explore what makes collaboration possible with these tools and community setup?
 - Discussion: what makes it work / not work?
 	- Derive desirable system features and guidelines
 
@@ -20,7 +25,7 @@ Activity results: visualization
 Informative (Polymath, Hacker News) discussion vs argumentative discussion (political issue, social issue)
 	- through hands-on interaction, let students see and notice the differences between the two
 
-	
+
 Activity
 - look at a long comment thread on Reddit or Hacker News, and ask students to make observations
 - what makes it difficult to keep track of the discussion?
