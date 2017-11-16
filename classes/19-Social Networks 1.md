@@ -42,5 +42,16 @@ Emotion contagion
 
 # Student Presentation
 
+https://docs.google.com/spreadsheets/d/1o1dJc0UX7-F4vXo-WvyIxbZ1l1rhdwWfcpXfX2_ZHSE/edit#gid=1644201246
 
 # Postmortem
+https://www.nytimes.com/2017/09/25/business/reddit-limits-noxious-content-by-giving-trolls-fewer-places-to-gather.html
+
+
+Talking a bit about social media as a news source might be relevant.
+https://www.nytimes.com/2016/11/14/technology/facebook-is-said-to-question-its-influence-in-election.html
+
+
+Tie strength activity by students was fun.
+
+Folk theory acitivity: didn't have enough time.
