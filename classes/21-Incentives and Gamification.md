@@ -19,3 +19,4 @@
 
 
 # Postmortem
+- many students expressed difficulty reading the Foldit paper due to many technical jargon and high domain knowledge barrier.
