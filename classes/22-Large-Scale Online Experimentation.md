@@ -5,17 +5,29 @@
 
 # Admin (5 min)
 
+# Project quick overview (10 mins)
 
-# Topic Intro 1
+
+# Topic Intro 1 (15 mins)
 
 do the lottery vs fixed payment study in the beginning of class
 and use this as a case study throughout the class to discuss
 various factors involved in online experimentation.
 
-# Discussion
+Procedure
+- Students do the online survey. (pick the reward type and answer the risk seeking behavior survey questions)
+- Students do the brainstorming task on paper. (print the worksheet and distribute)
+- Students peer evaluate the worksheet and give a final score.
+- Course staff runs simple average and t-test to see if the paper results are replicated.
+	- For risk-seeking behavior, average the three Likert-scale questions and see if lottery vs fixed groups differ in the aggregate score.
 
 
-# Activity
+# Experiment Design 101 (10 mins)
+- Use the lottery example for discussion
+
+
+# Online Experimentation (10 mins)
+
 
 
 # Student Presentation
