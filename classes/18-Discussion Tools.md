@@ -67,3 +67,13 @@ Expert Location
 
 
 # Postmortem
+- Trying some discussion ourselves online would be fun.
+	- Related to the course topic perhaps.
+
+- Show some recent tools for supporting discussion
+	- http://collectivedebate.mit.edu/
+	- https://pano.csail.mit.edu/
+	
+- Long thread summarization challenge
+	- design a good workflow for collaborative summarization
+	
