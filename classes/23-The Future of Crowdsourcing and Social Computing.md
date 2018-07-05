@@ -4,7 +4,7 @@
 
 
 # Admin (5 min)
-
+- say a bit about grading: distribution, attendance taken into account, design projects, etc. 
 
 # Topic Intro 1
 
@@ -19,3 +19,4 @@
 
 
 # Postmortem
+- Make it more interactive. The "tour" was informative but a bit passive.
