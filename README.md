@@ -1,2 +1,2 @@
-# cs492-fall-2017
-Course Website and Resources for CS492 (Crowdsourcing and Social Computing) in Fall 2017
+# AI599 Special Topics in Machine Learning
+Course Website and Resources for AI599 Special Topics in Machine Learning - Deep Learning and Real-world Applications in Fall 2022
