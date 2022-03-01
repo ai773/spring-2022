@@ -78,7 +78,7 @@ h6 {
 a,
 a:hover,
 a:focus {
-  color: #009688;
+  color: #2db400;
 }
 a .material-icons,
 a:hover .material-icons,
@@ -146,13 +146,13 @@ body .container .well-primary,
 body .container-fluid .well-primary,
 body .container .jumbotron-primary,
 body .container-fluid .jumbotron-primary {
-  background-color: #009688;
+  background-color: #2db400;
 }
 body .container .well-success,
 body .container-fluid .well-success,
 body .container .jumbotron-success,
 body .container-fluid .jumbotron-success {
-  background-color: #4caf50;
+  background-color: #2db400;
 }
 body .container .well-info,
 body .container-fluid .well-info,
@@ -1666,7 +1666,9 @@ output {
   background-color: #3f51b5;
 }
 .label.label-primary {
-  background-color: #009688;
+  background-color: #2db400; 
+  /* background-color: #009688; */
+  
 }
 .label.label-success {
   background-color: #4caf50;
@@ -2239,7 +2241,8 @@ legend {
   float: right;
 }
 .navbar {
-  background-color: #009688;
+  background-color: #000000;
+  /* background-color: #009688; */
   border: 0;
   border-radius: 0;
 }
@@ -2400,7 +2403,7 @@ fieldset[disabled] .navbar .btn-link:focus {
 }
 .navbar,
 .navbar.navbar-default {
-  background-color: #009688;
+  background-color: #000000;
   color: rgba(255,255,255, 0.84);
 }
 .navbar .navbar-form .form-group input.form-control::-moz-placeholder,
@@ -3015,13 +3018,14 @@ fieldset[disabled] .navbar .btn-link:focus {
   background-color: #3f51b5;
 }
 .panel.panel-primary > .panel-heading {
-  background-color: #009688;
+  background-color: #000000;
+  /* 009688 */
 }
 .panel.panel-success > .panel-heading {
   background-color: #4caf50;
 }
 .panel.panel-info > .panel-heading {
-  background-color: #03a9f4;
+  background-color: #000000;
 }
 .panel.panel-warning > .panel-heading {
   background-color: #ff5722;
