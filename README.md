@@ -1,2 +1,2 @@
-# AI599 Special Topics in Machine Learning
-Course Website and Resources for AI599 Special Topics in Machine Learning - Deep Learning and Real-world Applications in Fall 2022
+# 4190.773.001 Special Topics in Artificial Intelligence
+Course Website and Resources for 4190.773.001 (ai773) Special Topics in Artificial Intelligence - Deep Learning and Real-world Applications in Spring 2022
