@@ -1,23 +1,23 @@
-Response to "Being a Turker"
+Response to "Evaluating Machine Accuracy on ImageNet"
 
+The authors scrutinize the accuracy of models trained on ImageNet by comparing them to five trained human labelers. 
+They find that only the latest models are on par with humans. Furthermore, human accuracy on inanimate objects is 
+higher than the best model on ImageNets. They also observe that human labelers are robust to small distribution 
+shift while the machines trained on ImageNet achieve much lower top-1 accuracy on ImageNet-V2 validation set. 
+To that end, they provide three guidelines for more reliable machine evaluation: 1) Measure the multi-label accuracy, 
+2) Report performance on dogs, other animals, and inanimate objects separately, 3) Evaluate performance to 
+distribution shift.
 
-The paper, "Being a Turker", is an ethnomethodological analysis of Turker Nation, which is a general forum for
-Amazon Mechanical Turk (AMT) users. From the forum data, the paper presents new findings about Turkers. First,
-Turkers treat their tasks as work where pay is the most important factor. They view AMT as a labor marketplace
-where selecting a good job and having a good relationship with the requester matter. This work is important because
-it provides a richer understanding of Turkers, who are real people behind the human computation process. More
-work like this focusing on workers¡¯ perspective can guide designers of future crowdsourcing systems.
+I totally agree author’s motivation that current evaluation protocol based on top-1 and top-5 accuracy 
+may cause severe misunderstanding of machines. I have had a new understanding of why the top-1 and top-5 
+accuracy may not reflect the performance of machine. Some images have multi objects or allowing 
+five guesses on all images can make certain class distinctions trivial. It is very impressive 
+in this work to report the various types of accuracy including accuracies of all images, images 
+without dogs and object images only, etc. The gaps between accuracies show some problems of evaluation 
+protocol based on ImageNet. I think that showing the existence of machines that are robust to small 
+distribution shifts is also a big contribution of this work.
 
-
-I learned about how the crowdsourced workers view and feel about their microtasks. Contrary to my expectation,
-AMT work was treated as real job for many Turkers rather than fun activities. This meant the pay rate of tasks
-significantly influences Turkers. I liked how the authors conducted extensive searches through the forum and
-included interesting excerpts in the paper. As a result, the paper read like a story of real people, who had been
-largely overshadowed by the grand scheme of human computation.
-
-
-This paper took a qualitative approach of ethnomethodology to analyze a community of Turkers. As an
-ethnomethodological analysis, the paper has a known methodological issue that the generalizability of the study may
-be limited. Although the authors referenced a few other online Turker communities, their core site of data collection
-remained Turker Nation. I think this paper could be improved by taking their analysis beyond Turker Nation and
-providing a comparison of workers from various crowdsourcing platforms.
+As the author mentioned, further directions of the human generalization such as adversarial robustness 
+or bias can be explored, which is helpful to figure out exactly the current methods. By observing whether 
+robustness is equally present in the case of non-experts, it is possible to determine whether the direction 
+we should study is to increase the robustness of the model or to produce a model with expert-like performance. 

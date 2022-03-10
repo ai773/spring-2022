@@ -1,30 +1,40 @@
-Response to: "Managing the Crowd: Towards a Taxonomy of Crowdsourcing Processes."
+Response to: "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
 
 
-This paper proposes a generic taxonomical scheme for crowdsourcing process. This is intended to give
-better insights on deciding methodologies for crowdsourcing. The development of the classification is done by
-following: 1) Identification of four dimensions (preselection rules, mutual accessibility of participants, aggregation
-strategies, and rewarding policies) that determine the characteristics of crowdsourcing. The paper also
-determines types of crowdsourcing projects on each dimension, as a criteria for classification. 2) Using the
-taxonomical framework, the authors grouped 19 distinct process combinations from 46 examples. 3) They did
-cluster analysis to get five clusters of crowdsourcing processes. The result of analysis implies aggregation and
-rewards are more impacting on grouping than preselection and accessibility.
+This paper proposes an idea of applying Transformers to a computer vision classification task 
+with very little modification of the original Transformer architecture. 
+They simply split an image into P x P sized patches, using each patch as some kind of ‘token’ 
+by flattening them using a learnable embedding. Such tokens are combined with simple learnable 
+1D positional embeddings, and are fed into a BERT-like Transformer architecture to predict the classification label.
+The paper’s experiments show that accuracies using their ViT (Vision Transformers) model outperforms 
+exiting CNN-based SOTA models.
 
+The most interesting aspect about this paper was the idea of ‘applying Transformers to computer vision’ itself. 
+I am not so familiar with computer vision works, but have fiddled a lot with Transformer 
+based NLP models such as BERT or GPT. Therefore, I was used to the Transformer architecture, 
+but never thought about applying it to two dimensional images. This is because of the computational 
+efficiency of the Transformer architecture. As mentioned in the paper, Transformers is the de-facto 
+architecture in NLP, and is notably better than previous NLP- targeting models such RNN. However, 
+they suffer from quadratic computation (O(n2) for a sequence length of n) because each token needs to attend 
+every other token in the sequence. This makes it rather hard to imagine applying Transformers to an image, 
+because it will be extremely time-consuming for each pixel in an image to attend to every other pixel. 
+However, this paper aims to overcome that problem by ‘grouping’ pixels into patches, and treating each patch 
+as a single token. Regardless of its accuracy gains, I thought this was a novel idea, 
+and also became interested in how famous computer vision architectures can be applied to NLP tasks.
+It was also very impressive and surprising to see how this methodology actually works, 
+i.e. shows comparable or better performance than the famous ResNet.
 
-Above all, I have learned the taxonomy that can be useful in development of crowdsourcing.
-Furthermore, I have learned the general process of establishing taxonomical framework and applying it.
-Establishing criteria for each dimension was the most interesting part of this paper. When there is a confliction
-between the authors' point of view and the previous works, this paper tried to reason, and I agreed with the
-reasons. For example, this paper "No reward" type in remuneration dimension, and this rebuffs previous works’
-point of view that having "Voluntary Contribution" type in the dimension. I agree with the authors' idea, because I
-also think motivational factors are not easy to be measured quantitatively.
-
-
-Reading this paper, I was worried about the number of examples used for this research because it is too
-small. This is already mentioned by the authors because it could lead different cluster analysis. In my opinion,
-however, when there are more examples, this could also impact the establishment of dimensions and possible
-types of crowdsourcing in each dimension. What if there is a crowdsourcing project that has a striking
-characteristic that leads to adding new dimension? I think this could affect the basis of grouping and clustering.
-Additionally, there could be some dimensions that tightly related to others. Verifying the relationship or influence
-of one dimension on each dimension also could answer why some combinations are more frequently appear
-while some combinations are even never appear, or cause an establishment of a new dimensions to consider.
+However, while reading the paper, some questions and ideas popped into my head. 
+First, despite the fact that the paper’s approach was novel, it continuously emphasizes that the ViT model 
+performs well with large training datasets. It can be seen from the experiment results that for small 
+pre-training datasets such as ImageNet, previous CNN based models show higher accuracies compared to ViT.
+While recent deep learning trends are in search of educing better performance with less datasets, 
+the paper’s experiment results may appear to be not so appealing. Second, I believe that a more detailed 
+ablation study on patch sizes could have helped readers get a better insight on how the method applies 
+to actual accuracy. It seems like the paper mainly focuses on a 16 x 16 or 14 x 14 patch, and for such sizes, 
+the accuracy noted is above SOTA level. However, I think the way the image is split up, and what each patch 
+holds will matter a lot when performing the classification task. For example, is the patch useful 
+when it looks at small, detailed features? Or is it useful when it holds large shapes or backgrounds? 
+Maybe such ablation studies can help find an optimal patch size for different sized images. 
+Furthermore, patch size ablation may help after when they are evaluated on multiple datasets 
+(apart form classification), since it may be used to find an optimal patch size for different computer vision tasks.
